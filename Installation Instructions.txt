@@ -1,0 +1,6 @@
+How to install History of Spaceflight:
+
+1. unzip contract packs to a new folder
+2. Choose which version you want to play. Either RSS/RP-0 mod or Stock
+3. Copy the HistoryofSpaceflight folder in you KSP game directory under GameData/ContractPacks
+4. When updating to a new version it's best to delete the previously installed HistoryofSpaceflight as well as ModuleManager.ConfigCache, and ModuleManager.ConfigSHA from your GameData folder to make sure it loads the new contracts that were added.
