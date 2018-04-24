@@ -41,11 +41,12 @@ Version 0.5.5
 - Fixed Pioneer-7 not loading in game   
 
 Version 0.5.6
-- Fix Luna-E-1A-No1 generating in 1960. Should be 1959. Plus fixed description (Stock/RSS)
+- Fix Luna-E-1A-No1 generating in 1960. Should be 1959. also fixed description (Stock/RSS)
 - Corrected several contract pre-requisites so they are in the right place (Stock/RSS)
 - Reverted and corrected Thor-Delta advancefunds based on correct launch pad this time (RSS)
 - Balanced advancefunds for all Thor-Ablestar contacts (RSS)
 - Balanced advancefunds for all Thor-Agena-A/B contracts (RSS)
-- Fixed numerous grammar and spelling mistakes in Discoverer descriptions (Stock/RSS)
+- Fixed numerous grammar and spelling mistakes in many descriptions (Stock/RSS)
 - Changed Midas-1(Feb) to before Transit-1B(April) (Stock/RSS)
 - Balanced Atlas-Agena-A/B/D advancefunds for 80 contracts for RP-0 (RSS)
+- Added minPeriapsis to several contracts. (RSS)
