@@ -41,6 +41,7 @@ Version 0.5.5
 - Fixed Pioneer-7 not loading in game   
 
 Version 0.5.6 (UNRELEASED)
+- Removed 10 Pre-Sputnik ballistic missile contracts to speed up the early game (Stock)
 - Fix Luna-E-1A-No1 generating in 1960. Should be 1959. also fixed description (Stock/RSS)
 - Corrected several contract pre-requisites so they are in the right place (Stock/RSS)
 - Reverted and corrected Thor-Delta advancefunds based on correct launch pad this time (RSS)
