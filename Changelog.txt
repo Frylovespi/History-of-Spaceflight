@@ -50,3 +50,5 @@ Version 0.5.6
 - Changed Midas-1(Feb) to before Transit-1B(April) (Stock/RSS)
 - Balanced Atlas-Agena-A/B/D advancefunds for 80 contracts for RP-0 (RSS)
 - Added minPeriapsis to several contracts. (RSS)
+- Added maxInclination to Tiros missions
+- Corrected several contract descriptions (Stock/RSS)
