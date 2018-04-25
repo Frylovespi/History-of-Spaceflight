@@ -40,7 +40,7 @@ Version 0.5.5
 - Balanced 45 Thor-Delta contracts advancefunds to include new rollout costs (RSS)
 - Fixed Pioneer-7 not loading in game   
 
-Version 0.5.6
+Version 0.5.6 (UNRELEASED)
 - Fix Luna-E-1A-No1 generating in 1960. Should be 1959. also fixed description (Stock/RSS)
 - Corrected several contract pre-requisites so they are in the right place (Stock/RSS)
 - Reverted and corrected Thor-Delta advancefunds based on correct launch pad this time (RSS)
@@ -52,3 +52,5 @@ Version 0.5.6
 - Added minPeriapsis to several contracts. (RSS)
 - Added maxInclination to Tiros missions
 - Corrected several contract descriptions (Stock/RSS)
+- balanced R-7 variant advancefunds (RSS)
+- added or modified inclinations on _ contracts (Stock/RSS)
