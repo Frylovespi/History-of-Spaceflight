@@ -51,6 +51,6 @@ Version 0.5.6 (UNRELEASED)
 - Balanced Atlas-Agena-A/B/D advancefunds for 80 contracts for RP-0 (RSS)
 - Added minPeriapsis to several contracts. (RSS)
 - Added maxInclination to Tiros missions
-- Corrected several contract descriptions (Stock/RSS)
+- Corrected or added more history to several contract descriptions (Stock/RSS)
 - balanced R-7 variant advancefunds (RSS)
-- added or modified inclinations on _ contracts (Stock/RSS)
+- added or modified historical inclinations in 104 contracts (Stock/RSS)
