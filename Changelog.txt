@@ -54,4 +54,4 @@ Version 0.5.6 (UNRELEASED, on github)
 - Added maxInclination to Tiros missions
 - Corrected or added more history to several contract descriptions (Stock/RSS)
 - balanced R-7 variant advancefunds (RSS)
-- added or modified historical inclinations in 124 contracts (Stock/RSS)
+- added or modified historical inclinations in 125 contracts (Stock/RSS)
