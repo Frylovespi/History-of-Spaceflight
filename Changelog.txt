@@ -57,3 +57,7 @@ Version 0.5.6
 - Corrected or added more history to several contract descriptions (Stock/RSS)
 - Balanced R-7 variant advancefunds (RSS)
 - added or modified historical inclinations in 125 contracts (Stock/RSS)
+
+Version 0.5.6.1 Hotifx
+- Fixed missing parameter in Kosmos-27 mission. (Thanks Gordon-Dry)(Stock/RSS)
+- Fixed Flying missions not completing (RSS)
