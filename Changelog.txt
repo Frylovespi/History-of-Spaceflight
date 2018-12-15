@@ -65,3 +65,7 @@ Version 0.5.6.1 Hotifx
 Version 0.5.6.2 Hotfix
 - Fixed Kosmos-41, Kosmos-48, Kosmos-49, and Kosmos-36. (Stock/RSS)
 - Thanks Gordon-Dry, and rzabcio for pointing them out and providing solutions.
+
+Version 0.5.7 (In Progress on Github)
+- Major cleanup of code for Stock. Big thanks to Gordon-Dry.
+- Changed Dongfeng-4 to become available after Explorer-35 until Explorer-40 was added. (Thanks rzabcio)
