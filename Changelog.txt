@@ -70,3 +70,4 @@ Version 0.5.7 (In Progress on Github)
 - Major cleanup of code for Stock. Big thanks to Gordon-Dry.
 - Changed Dongfeng-4 to become available after Explorer-35 until Explorer-40 was added. (Thanks rzabcio)
 - Changed targetBody = HomeWorld() to targetBody = HomeWorld() in all stock contracts to add compatability to mods that change the homeworld. (Stock)
+- Rebalance cash rewards for completed contracts (RSS/RP-1)
