@@ -68,7 +68,9 @@ Version 0.5.6.2 Hotfix
 
 Version 0.5.7 (In Progress on Github)
 - Major cleanup of code for Stock. Big thanks to Gordon-Dry.
-- Changed Dongfeng-4 to become available after Explorer-35 until Explorer-40 was added. (Thanks rzabcio)
-- Changed targetBody = HomeWorld() to targetBody = HomeWorld() in all stock contracts to add compatability to mods that change the homeworld. (Stock)
+- Changed Dongfeng-4 to become available after Explorer-35 until Explorer-40 is added. (Thanks rzabcio)
+- Changed targetBody = Kerbin to targetBody = HomeWorld() in all stock contracts to add compatability to mods that change the starting launch planet. (Stock)
 - Rebalance cash rewards for completed contracts (RSS/RP-1)
 - Rebalance advanceFunds to reflect new rollout costs (RSS/RP-1)
+- More grammar fixes and mission description fixes (Stock/RSS)
+- Added early Soviet Mars failed missions (Stock/RSS)
