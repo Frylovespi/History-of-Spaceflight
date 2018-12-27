@@ -37,7 +37,7 @@ Version 0.5.5
 - increased advancefunds for Luna failures (RSS)
 - increased advancefunds on failed explorers (Stock)
 - Echo-X fixed and re-balanced (Stock/RSS)
-- Balanced 45 Thor-Delta contracts advancefunds to include new rollout costs (RSS)
+- Balanced 45 Thor-Delta contracts advancefunds to include new roll-out costs (RSS)
 - Fixed Pioneer-7 not loading in game   
 
 Version 0.5.6
@@ -45,7 +45,7 @@ Version 0.5.6
 - Removed 10 Pre-Sputnik ballistic missile contracts to speed up the early game (Stock)
 - Fix Explorer-6 not firing properly (Thanks PmThay)(Stock)
 - Fix Luna-E-1A-No1 generating in 1960. Should be 1959. also fixed description (Stock/RSS)
-- Corrected several contract pre-requisites so they are in the right place (Stock/RSS)
+- Corrected several contract requirements so they are in the right place (Stock/RSS)
 - Reverted and corrected Thor-Delta advancefunds based on correct launch pad this time (RSS)
 - Balanced advancefunds for all Thor-Ablestar contacts (RSS)
 - Balanced advancefunds for all Thor-Agena-A/B contracts (RSS)
@@ -58,7 +58,7 @@ Version 0.5.6
 - Balanced R-7 variant advancefunds (RSS)
 - added or modified historical inclinations in 125 contracts (Stock/RSS)
 
-Version 0.5.6.1 Hotifx
+Version 0.5.6.1 Hotfix
 - Fixed missing parameter in Kosmos-27 mission. (Thanks Gordon-Dry)(Stock/RSS)
 - Fixed Flying missions not completing (RSS)
 
@@ -69,9 +69,10 @@ Version 0.5.6.2 Hotfix
 Version 0.5.7 (In Progress on Github)
 - Major cleanup of code for Stock. Big thanks to Gordon-Dry.
 - Changed Dongfeng-4 to become available after Explorer-35 until Explorer-40 is added. (Thanks rzabcio)
-- Changed targetBody = Kerbin to targetBody = HomeWorld() in all stock contracts to add compatability to mods that change the starting launch planet. (Stock)
-- Rebalance cash rewards for completed contracts (RSS/RP-1)
-- Rebalance advanceFunds to reflect new rollout costs (RSS/RP-1)
+- Changed targetBody = Kerbin to targetBody = HomeWorld() in all stock contracts to add compatibility to mods that change the starting launch planet. (Stock)
+- Re-balance cash rewards for completed contracts (RSS/RP-1)
+- Re-balance advanceFunds to reflect new roll-out costs (RSS/RP-1)
 - More grammar fixes and mission description fixes (Stock/RSS)
 - Added 2 early Soviet Mars failed missions (Stock/RSS)
-- Added 2 early USA Mercurcy failed missions (Stock/RSS)
+- Added 2 early USA Mercury failed missions (Stock/RSS)
+- Added 5 early 1960's Japan Kappa solid rocket tests (RSS)
