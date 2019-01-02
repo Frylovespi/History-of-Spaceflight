@@ -80,3 +80,7 @@ Version 0.5.3-HOTFIX-2
 - Added 4 Australian Sounding Rocket launches (RSS)
 - Added 3 Canadian Sounding Rocket Launches (RSS)
 - Added 1 France sounding rocket launches (RSS)
+- Added 3 Project Mercury Missions (RSS)
+- Added early China sounding rocket missions (RSS)
+- Reformatted and edited descriptions for all launches in 1961
+- Added maxApA and maxPeA to many contracts (RSS)
