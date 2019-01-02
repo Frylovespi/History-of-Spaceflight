@@ -1,8 +1,8 @@
-Version 0.5.2 BETA
+**Version 0.5.2 BETA**
 - Re-balanced and added failure missions up to 1961 for RSS/RP-0 Version
 - Re-balanced and added failure missions up to 1961 for Stock Version
 
-Version 0.5.3 BETA RELEASE
+**Version 0.5.3 BETA RELEASE**
 - added 9 more launch failure contracts. Now complete up to 1964 (stock/RSS)
 - various grammar fixes
 - various bug fixes in missions
@@ -11,7 +11,7 @@ Version 0.5.3 BETA RELEASE
 - fix pre-requirements to fix contracts not generating
 - added 6 Early Luna launch failures from 1958-1960 (Stock/RSS)
 
-Version 0.5.3-HOTFIX
+**Version 0.5.3-HOTFIX**
 - re-balance advance and reward funds for UKSA, JAXA, CNES
 - fix grammar in missions
 - Fixed Luna failures not loading
@@ -22,14 +22,14 @@ Version 0.5.3-HOTFIX-2
 - Various grammar and spelling fixes (Stock/RSS)
 - Fixed pre-required contracts for new failures (Stock/RSS)
 
-Version 0.5.4
+**Version 0.5.4**
 - Moved Ferret missions from USAmisc to Ferret in main config (Stock/RSS)
 - Fixed ESRS not loading (RSS)
 - Added 22 Soviet launch failures completing up to 1964 (Stock/RSS)
 - Re-balanced Pre-Sputnik Science rewards to reward more science (Stock)
 - various spelling corrections
 
-Version 0.5.5
+**Version 0.5.5**
 - Fixed USA contracts not generating after Echo-X (Stock/RSS)
 - spelling fixes (Stock/RSS)
 - Korabl-Sputnik-3 self destruct on re-entry (RSS only)
@@ -40,7 +40,7 @@ Version 0.5.5
 - Balanced 45 Thor-Delta contracts advancefunds to include new roll-out costs (RSS)
 - Fixed Pioneer-7 not loading in game   
 
-Version 0.5.6
+**Version 0.5.6**
 - Change Deadline for interplanetary missions from 70 days to 5000 days (Thanks PlankyPlankh)(Stock/RSS).
 - Removed 10 Pre-Sputnik ballistic missile contracts to speed up the early game (Stock)
 - Fix Explorer-6 not firing properly (Thanks PmThay)(Stock)
@@ -58,15 +58,15 @@ Version 0.5.6
 - Balanced R-7 variant advancefunds (RSS)
 - added or modified historical inclinations in 125 contracts (Stock/RSS)
 
-Version 0.5.6.1 Hotfix
+**Version 0.5.6.1 Hotfix**
 - Fixed missing parameter in Kosmos-27 mission. (Thanks Gordon-Dry)(Stock/RSS)
 - Fixed Flying missions not completing (RSS)
 
-Version 0.5.6.2 Hotfix
+**Version 0.5.6.2 Hotfix**
 - Fixed Kosmos-41, Kosmos-48, Kosmos-49, and Kosmos-36. (Stock/RSS)
 - Thanks Gordon-Dry, and rzabcio for pointing them out and providing solutions.
 
-Version 0.5.7 (In Progress on Github)
+**Version 0.5.7 (In Progress on Github)**
 - Major cleanup of code for Stock. Big thanks to Gordon-Dry.
 - Changed Dongfeng-4 to become available after Explorer-35 until Explorer-40 is added. (Thanks rzabcio)
 - Changed targetBody = Kerbin to targetBody = HomeWorld() in all stock contracts to add compatibility to mods that change the starting launch planet. (Stock)
@@ -79,3 +79,4 @@ Version 0.5.7 (In Progress on Github)
 - Added Akita Rocket Range for early Kappa launches (RSS)
 - Added 4 Australian Sounding Rocket launches (RSS)
 - Added 3 Canadian Sounding Rocket Launches (RSS)
+- Added 1 France sounding rocket launches (RSS)
