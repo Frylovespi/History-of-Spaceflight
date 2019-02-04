@@ -86,3 +86,4 @@ Version 0.5.3-HOTFIX-2
 - Added 2 UK Ballistic Missile launches (RSS)
 - Reformatted and edited descriptions for all launches in 1961
 - Added maxApA and maxPeA to many contracts (RSS)
+- Added Downrange target to reach for sounding rocket and ballistic missile missions (RSS)(Stock coming soon)
