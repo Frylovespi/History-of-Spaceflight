@@ -66,12 +66,14 @@ Version 0.5.3-HOTFIX-2
 - Fixed Kosmos-41, Kosmos-48, Kosmos-49, and Kosmos-36. (Stock/RSS)
 - Thanks Gordon-Dry, and rzabcio for pointing them out and providing solutions.
 
-**Version 0.5.7 (In Progress on Github)**
+**Version 0.6 **Major**-Overhaul(In Progress on Github)**
 - Major cleanup of code for Stock. Big thanks to Gordon-Dry.
+- Major cleanup of RSS/RP-0 code. More work to come
 - Changed Dongfeng-4 to become available after Explorer-35 until Explorer-40 is added. (Thanks rzabcio)
 - Changed targetBody = Kerbin to targetBody = HomeWorld() in all stock contracts to add compatibility to mods that change the starting launch planet. (Stock)
-- Re-balance cash rewards for completed contracts (RSS/RP-1)
+- Re-balance rewardFunds for all contracts (RSS/RP-1)
 - Re-balance advanceFunds to reflect new roll-out costs (RSS/RP-1)
+- Removed or lowered rewardScience for most contracts. Further balance to follow (RSS/RP-1 only)
 - More grammar fixes and mission description fixes (Stock/RSS)
 - Added Akita Rocket Range for early Kappa launches (RSS)
 - Added 2 early Soviet Mars failed missions (Stock/RSS)
@@ -85,6 +87,7 @@ Version 0.5.3-HOTFIX-2
 - Added 2 early China sounding rocket missions (RSS)
 - Added 2 UK Ballistic Missile launches (RSS)
 - Reformatted and edited descriptions for all launches in 1961
-- Added maxApA and maxPeA to many contracts (RSS)
+- Added maxApA and maxPeA to all contracts. (in-progress) (RSS/RP-1)
+- Added minInclination and maxInclination to all contracts. (RSS/RP-1)
 - Added Downrange target to reach for sounding rocket and ballistic missile missions (RSS)(Stock coming soon)
 - Moved Atlas-B ballistic missile test to 1958 where it belongs (RSS)
