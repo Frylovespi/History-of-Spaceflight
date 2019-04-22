@@ -91,3 +91,5 @@ Version 0.5.3-HOTFIX-2
 - Added minInclination and maxInclination to all contracts. (RSS/RP-1)
 - Added Downrange target to reach for sounding rocket and ballistic missile missions (RSS)(Stock coming soon)
 - Moved Atlas-B ballistic missile test to 1958 where it belongs (RSS)
+- Added SOLRAD 4A/4B missions (RSS)
+- Renamed FTV missions to Discoverer series.
