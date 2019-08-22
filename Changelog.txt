@@ -67,6 +67,8 @@ Version 0.5.3-HOTFIX-2
 - Thanks Gordon-Dry, and rzabcio for pointing them out and providing solutions.
 
 **Version 0.6 **Major**-Overhaul(In Progress on Github)**
+- Added 9 historical engines to use on many of the contracts (using generic engines online tool. For RSS/RP-1)
+	- RD-214, RD-216, RD-106, RD-119, S.23, YF-2A, 5D62, 15KS25000 (more to come)
 - Major cleanup of code for Stock. Big thanks to Gordon-Dry.
 - Major cleanup of RSS/RP-0 code. More work to come
 - Changed Dongfeng-4 to become available after Explorer-35 until Explorer-40 is added. (Thanks rzabcio)
