@@ -1,72 +1,7 @@
-**Version 0.5.2 BETA**
-- Re-balanced and added failure missions up to 1961 for RSS/RP-0 Version
-- Re-balanced and added failure missions up to 1961 for Stock Version
+**Version 0.7.0 (In progress available on github)
+- Started adding new contract from 1967 onwards
 
-**Version 0.5.3 BETA RELEASE**
-- added 9 more launch failure contracts. Now complete up to 1964 (stock/RSS)
-- various grammar fixes
-- various bug fixes in missions
-- fix several incorrect contract placings
-- re-balanced advance funds for soviet R-7 variants to account for RP-0 rollout costs
-- fix pre-requirements to fix contracts not generating
-- added 6 Early Luna launch failures from 1958-1960 (Stock/RSS)
-
-**Version 0.5.3-HOTFIX**
-- re-balance advance and reward funds for UKSA, JAXA, CNES
-- fix grammar in missions
-- Fixed Luna failures not loading
-
-Version 0.5.3-HOTFIX-2
-- Added 5 US launch failures finished up to 1965 (Stock/RSS)
-- Added 3 Soviet launch failures (Stock/RSS)
-- Various grammar and spelling fixes (Stock/RSS)
-- Fixed pre-required contracts for new failures (Stock/RSS)
-
-**Version 0.5.4**
-- Moved Ferret missions from USAmisc to Ferret in main config (Stock/RSS)
-- Fixed ESRS not loading (RSS)
-- Added 22 Soviet launch failures completing up to 1964 (Stock/RSS)
-- Re-balanced Pre-Sputnik Science rewards to reward more science (Stock)
-- various spelling corrections
-
-**Version 0.5.5**
-- Fixed USA contracts not generating after Echo-X (Stock/RSS)
-- spelling fixes (Stock/RSS)
-- Korabl-Sputnik-3 self destruct on re-entry (RSS only)
-- Changed Moon to Mun for Luna failures description (Stock)
-- increased advancefunds for Luna failures (RSS)
-- increased advancefunds on failed explorers (Stock)
-- Echo-X fixed and re-balanced (Stock/RSS)
-- Balanced 45 Thor-Delta contracts advancefunds to include new roll-out costs (RSS)
-- Fixed Pioneer-7 not loading in game   
-
-**Version 0.5.6**
-- Change Deadline for interplanetary missions from 70 days to 5000 days (Thanks PlankyPlankh)(Stock/RSS).
-- Removed 10 Pre-Sputnik ballistic missile contracts to speed up the early game (Stock)
-- Fix Explorer-6 not firing properly (Thanks PmThay)(Stock)
-- Fix Luna-E-1A-No1 generating in 1960. Should be 1959. also fixed description (Stock/RSS)
-- Corrected several contract requirements so they are in the right place (Stock/RSS)
-- Reverted and corrected Thor-Delta advancefunds based on correct launch pad this time (RSS)
-- Balanced advancefunds for all Thor-Ablestar contacts (RSS)
-- Balanced advancefunds for all Thor-Agena-A/B contracts (RSS)
-- Fixed numerous grammar and spelling mistakes in many descriptions (Stock/RSS)
-- Changed Midas-1(Feb) to before Transit-1B(April) (Stock/RSS)
-- Balanced Atlas-Agena-A/B/D advancefunds for all contracts for RP-0 (RSS)
-- Added minPeriapsis to several contracts. (RSS)
-- Added maxInclination to Tiros missions (Stock/RSS)
-- Corrected or added more history to several contract descriptions (Stock/RSS)
-- Balanced R-7 variant advancefunds (RSS)
-- added or modified historical inclinations in 125 contracts (Stock/RSS)
-
-**Version 0.5.6.1 Hotfix**
-- Fixed missing parameter in Kosmos-27 mission. (Thanks Gordon-Dry)(Stock/RSS)
-- Fixed Flying missions not completing (RSS)
-
-**Version 0.5.6.2 Hotfix**
-- Fixed Kosmos-41, Kosmos-48, Kosmos-49, and Kosmos-36. (Stock/RSS)
-- Thanks Gordon-Dry, and rzabcio for pointing them out and providing solutions.
-
-**Version 0.6 **Major**-Overhaul(In Progress on Github)**
+**Version 0.6.0 **Major**-Overhaul**
 - Added 9 historical engines to use on many of the contracts (using generic engines online tool. For RSS/RP-1)
 	- RD-214, RD-216, RD-106, RD-119, S.23, YF-2A, 5D62, 15KS25000 (more to come)
 - Major cleanup of code for Stock. Big thanks to Gordon-Dry.
@@ -95,3 +30,78 @@ Version 0.5.3-HOTFIX-2
 - Moved Atlas-B ballistic missile test to 1958 where it belongs (RSS)
 - Added SOLRAD 4A/4B missions (RSS)
 - Renamed FTV missions to Discoverer series.
+
+**Version 0.5.6.2 Hotfix**
+- Fixed Kosmos-41, Kosmos-48, Kosmos-49, and Kosmos-36. (Stock/RSS)
+- Thanks Gordon-Dry, and rzabcio for pointing them out and providing solutions.
+
+**Version 0.5.6.1 Hotfix**
+- Fixed missing parameter in Kosmos-27 mission. (Thanks Gordon-Dry)(Stock/RSS)
+- Fixed Flying missions not completing (RSS)
+
+**Version 0.5.6**
+- Change Deadline for interplanetary missions from 70 days to 5000 days (Thanks PlankyPlankh)(Stock/RSS).
+- Removed 10 Pre-Sputnik ballistic missile contracts to speed up the early game (Stock)
+- Fix Explorer-6 not firing properly (Thanks PmThay)(Stock)
+- Fix Luna-E-1A-No1 generating in 1960. Should be 1959. also fixed description (Stock/RSS)
+- Corrected several contract requirements so they are in the right place (Stock/RSS)
+- Reverted and corrected Thor-Delta advancefunds based on correct launch pad this time (RSS)
+- Balanced advancefunds for all Thor-Ablestar contacts (RSS)
+- Balanced advancefunds for all Thor-Agena-A/B contracts (RSS)
+- Fixed numerous grammar and spelling mistakes in many descriptions (Stock/RSS)
+- Changed Midas-1(Feb) to before Transit-1B(April) (Stock/RSS)
+- Balanced Atlas-Agena-A/B/D advancefunds for all contracts for RP-0 (RSS)
+- Added minPeriapsis to several contracts. (RSS)
+- Added maxInclination to Tiros missions (Stock/RSS)
+- Corrected or added more history to several contract descriptions (Stock/RSS)
+- Balanced R-7 variant advancefunds (RSS)
+- added or modified historical inclinations in 125 contracts (Stock/RSS)
+
+**Version 0.5.5**
+- Fixed USA contracts not generating after Echo-X (Stock/RSS)
+- spelling fixes (Stock/RSS)
+- Korabl-Sputnik-3 self destruct on re-entry (RSS only)
+- Changed Moon to Mun for Luna failures description (Stock)
+- increased advancefunds for Luna failures (RSS)
+- increased advancefunds on failed explorers (Stock)
+- Echo-X fixed and re-balanced (Stock/RSS)
+- Balanced 45 Thor-Delta contracts advancefunds to include new roll-out costs (RSS)
+- Fixed Pioneer-7 not loading in game  
+ 
+**Version 0.5.4**
+- Moved Ferret missions from USAmisc to Ferret in main config (Stock/RSS)
+- Fixed ESRS not loading (RSS)
+- Added 22 Soviet launch failures completing up to 1964 (Stock/RSS)
+- Re-balanced Pre-Sputnik Science rewards to reward more science (Stock)
+- various spelling corrections
+
+Version 0.5.3-HOTFIX-2
+- Added 5 US launch failures finished up to 1965 (Stock/RSS)
+- Added 3 Soviet launch failures (Stock/RSS)
+- Various grammar and spelling fixes (Stock/RSS)
+- Fixed pre-required contracts for new failures (Stock/RSS)
+**Version 0.5.3-HOTFIX**
+- re-balance advance and reward funds for UKSA, JAXA, CNES
+- fix grammar in missions
+- Fixed Luna failures not loading
+
+**Version 0.5.3 BETA RELEASE**
+- added 9 more launch failure contracts. Now complete up to 1964 (stock/RSS)
+- various grammar fixes
+- various bug fixes in missions
+- fix several incorrect contract placings
+- re-balanced advance funds for soviet R-7 variants to account for RP-0 rollout costs
+- fix pre-requirements to fix contracts not generating
+- added 6 Early Luna launch failures from 1958-1960 (Stock/RSS)
+
+**Version 0.5.2 BETA**
+- Re-balanced and added failure missions up to 1961 for RSS/RP-0
+- Re-balanced and added failure missions up to 1961 for Stock Version
+
+
+
+
+
+
+
+
