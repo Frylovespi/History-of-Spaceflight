@@ -1,5 +1,8 @@
 **Version 0.7.0 (In progress available on github)
 - Started adding new contract from 1967 onwards
+- More balancing and bug fixes
+- Re-added line breaks in contract descriptons for readablility. The bug preventing proper display in Contract Configurator was fixed in 4.0.3
+- Added more Discoverer missions (OPS missions)
 
 **Version 0.6.0 **Major**-Overhaul**
 - Added 9 historical engines to use on many of the contracts (using generic engines online tool. For RSS/RP-1)
