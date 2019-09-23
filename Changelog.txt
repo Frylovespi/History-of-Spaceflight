@@ -3,8 +3,10 @@
 - More balancing and bug fixes
 - Re-added line breaks in all 800+ contract descriptons for readablility. The bug preventing proper display in Contract Configurator was fixed in 4.0.3 (this will take some time)
 - Added notes to each contract (RSS)
-- Added a coloured synopsys to clearly indicate launch date, launch complex, and rocket used (RSS)
+- Added a coloured synopsys to clearly indicate launch date, launch complex, and rocket used in all contracts (RSS)
 - Added more Discoverer missions (OPS missions)
+- Added icons to many contracts (RSS)
+- Re-write and Reorganize the main HistoryofSpaceflight.cfg config file and arranged contracts by country and type (RSS)
 
 **Version 0.6.0 **Major**-Overhaul**
 - Added 9 historical engines to use on many of the contracts (using generic engines online tool. For RSS/RP-1)
