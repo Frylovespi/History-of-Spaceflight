@@ -589,3 +589,18 @@ KH7-35: Formatting. adjusted orbit parameters. changed stock to match RSS. chang
 KH7-36: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
 KH7-37: Formatting. adjusted orbit parameters; changed to sub-orbital due to low PeA. changed stock to match RSS. changed stock rewards.
 KH7-38: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+
+
+7-3-2020:
+
+Aeolus: adjusted altitude parameter, changed stock rewards. removed stock cooldown.
+Long-Tom: adjusted altitude parameter, changed stock rewards. changed pre-req to Skylark-1.
+HAT: adjusted altitude parameter, changed stock rewards. removed stock cooldown.
+HAD: adjusted altitude parameter, changed stock rewards. removed stock cooldown.
+
+A-2: adjusted altitude parameter, changed stock rewards. Changed group to Germany_missions.
+A-3: adjusted altitude parameter, changed stock to match RSS. changed stock rewards. Changed group to Germany_missions.
+A-4: adjusted altitude parameter, changed stock to match RSS. changed stock rewards. Changed group to Germany_missions.
+A-5: adjusted altitude parameter, changed stock rewards. Changed group to Germany_missions.
+Wasserfall: adjusted altitude parameter, changed stock rewards. Changed group to Germany_missions.
+
