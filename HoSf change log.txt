@@ -604,3 +604,12 @@ A-4: adjusted altitude parameter, changed stock to match RSS. changed stock rewa
 A-5: adjusted altitude parameter, changed stock rewards. Changed group to Germany_missions.
 Wasserfall: adjusted altitude parameter, changed stock rewards. Changed group to Germany_missions.
 
+
+8-3-2020:
+
+San-Marco-1: adjusted orbit parameters. changed stock to match RSS. changed stock rewards. changed pre-req to Ariel-2.
+Skylark-1: changed stock rewards. Changed group to UKmissions.
+Black Knight: changed stock to match RSS. changed stock rewards. Changed pre-req to Skylark-1.
+Blue Water: changed stock to match RSS. changed stock rewards. Changed pre-req to Black Knight.
+Ariel-1: adjusted orbit parameters. changed stock rewards. changed pre-req to Blue Water.
+Ariel-2: adjusted orbit parameters. changed stock rewards. changed pre-req to Ariel-1.
