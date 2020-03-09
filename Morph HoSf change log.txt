@@ -613,3 +613,54 @@ Black Knight: changed stock to match RSS. changed stock rewards. Changed pre-req
 Blue Water: changed stock to match RSS. changed stock rewards. Changed pre-req to Black Knight.
 Ariel-1: adjusted orbit parameters. changed stock rewards. changed pre-req to Blue Water.
 Ariel-2: adjusted orbit parameters. changed stock rewards. changed pre-req to Ariel-1.
+
+9-3-2020:
+
+K-150: changed stock rewards. Changed group to JapanMissions. Changed pre-req to Kappa-4.
+Kappa-1: changed stock rewards. Changed pre-req to Eole.
+Kappa-2: adjusted altitude parameter, changed stock rewards.
+Kappa-3: adjusted altitude parameter, changed stock rewards.
+Kappa-4: adjusted altitude parameter, changed stock rewards.
+Kappa-5: changed stock rewards. removed cooldown from stock.
+Kappa-6: changed stock rewards.
+Kappa-6H: adjusted altitude parameter, changed stock rewards.
+Kappa-7: adjusted altitude parameter, changed stock rewards. Changed pre-req to Kappa-6.
+Kappa-8: changed stock rewards.
+Kappa-8-2: adjusted altitude parameter, changed stock rewards.
+Kappa-8L: adjusted altitude parameter, changed stock rewards. removed cooldown from stock.
+Kappa-9L: adjusted altitude parameter, changed stock rewards. removed cooldown from stock.
+Kappa-9M: adjusted altitude parameter, changed stock rewards. removed cooldown from stock.
+Kappa-10: adjusted altitude parameter, changed stock rewards.
+Kappa-10S: adjusted altitude parameter, changed stock rewards. removed cooldown from stock.
+Lambda-4S-1: changed stock rewards. Changed pre-req to Kappa-10.
+Lambda-4S-2: changed stock rewards.
+Lambda-4S-3: changed stock rewards.
+
+T-7M: adjusted altitude parameter, changed stock rewards. removed cooldown. Changed pre-req to Kappa-7.
+T-7: adjusted altitude parameter, changed stock rewards. removed cooldown from stock.
+Dongfeng-1: changed stock rewards.
+Dongfeng-1A: changed stock rewards.
+Dongfeng-1B: removed; undated copy of 1A mission.
+Dongfeng-2: changed stock rewards. Changed pre-req to Dongfeng-1A; added cooldown to RSS.
+Dongfeng-2A: changed stock rewards. removed cooldown from stock.
+Dongfeng-2B: removed; undated copy of 2A mission.
+Dongfeng-3: changed stock rewards. Changed pre-req to Dongfeng-2A; added cooldown to RSS.
+Dongfeng-3A: changed stock rewards.
+Dongfeng-3B: removed; undated copy of 3A mission.
+Dongfeng-4: changed stock rewards. Changed pre-req to Dongfeng-3A.
+Dongfeng-4A: changed stock rewards.
+Dongfeng-4B: removed; undated copy of 4A mission.
+
+EA-1941: adjusted altitude parameter, changed stock rewards. Changed group to FranceMissions.
+Veronique: changed stock rewards. Changed group to FranceMissions. Changed pre-req to EA-1941.
+Eole: changed stock rewards.
+Belier-1: adjusted altitude parameter, changed stock rewards. Changed pre-req to Eole; added cooldown to RSS.
+Berenice-1: adjusted altitude parameter, changed stock rewards. removed cooldown from stock.
+Berenice-1A&B: removed; undated copies of Berenice-1.
+Asterix: adjusted orbit parameters. changed stock to match RSS. changed stock rewards. changed pre-req to Berenice-1; added cooldown to RSS.
+France-1: adjusted orbit parameters. changed stock to match RSS. changed stock rewards. changed pre-req to Asterix.
+Diapason: adjusted orbit parameters. changed stock to match RSS. changed stock rewards. changed pre-req to France-1.
+Diademe-1: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Diademe-2: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+DIAL-MIKA: added parameters for secondary sat DIAL-WIKA. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Peole-1: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
