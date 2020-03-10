@@ -708,4 +708,11 @@ Luna-E6-No3: changed stock rewards. Renamed to Luna-E6-3. Changed pre-req to Lun
 Luna-4: changed stock to match RSS. changed stock rewards. Changed pre-req to Luna-E6-3.
 Luna-5: changed stock to match RSS. changed stock rewards. Changed pre-req to Luna-4; added cooldown to RSS.
 Luna-6: adjusted orbit parameters. changed stock rewards. Reduced stock Mun distance to stay within Mun SOI.
+Luna-7: changed stock to match RSS. changed stock rewards.
+Luna-8: changed stock to match RSS. changed stock rewards.
+Luna-9: Added science transmit parameter. changed stock to match RSS. changed stock rewards.
+Luna-10: Added science transmit parameter. adjusted orbit parameters; max Ap & Pe instead of min. changed stock rewards.
+Luna-11: Added science transmit parameter. adjusted orbit parameters; max Ap & Pe instead of min. changed stock rewards.
+Luna-12: Added science transmit parameter. adjusted orbit parameters; max Ap & Pe instead of min. changed stock rewards.
+Luna-13: Formatting. Added science transmit parameter. changed stock rewards.
 
