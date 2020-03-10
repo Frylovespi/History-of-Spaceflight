@@ -593,6 +593,8 @@ KH7-38: Formatting. adjusted orbit parameters. changed stock to match RSS. chang
 
 7-3-2020:
 
+International Missions
+
 Aeolus: adjusted altitude parameter, changed stock rewards. removed stock cooldown.
 Long-Tom: adjusted altitude parameter, changed stock rewards. changed pre-req to Skylark-1.
 HAT: adjusted altitude parameter, changed stock rewards. removed stock cooldown.
@@ -613,6 +615,7 @@ Black Knight: changed stock to match RSS. changed stock rewards. Changed pre-req
 Blue Water: changed stock to match RSS. changed stock rewards. Changed pre-req to Black Knight.
 Ariel-1: adjusted orbit parameters. changed stock rewards. changed pre-req to Blue Water.
 Ariel-2: adjusted orbit parameters. changed stock rewards. changed pre-req to Ariel-1.
+
 
 9-3-2020:
 
@@ -664,3 +667,45 @@ Diademe-1: adjusted orbit parameters. changed stock to match RSS. changed stock 
 Diademe-2: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
 DIAL-MIKA: added parameters for secondary sat DIAL-WIKA. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
 Peole-1: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+
+
+10-3-2020:
+
+Soviet Missions
+
+R-1B: changed stock to match RSS. changed stock rewards. removed pre-req. Changed group to new Soviet_Early_Missions.
+R-101: changed stock to match RSS. changed stock rewards. Changed group to new Soviet_Early_Missions.
+R-2E: changed stock to match RSS. changed stock rewards. Changed group to new Soviet_Early_Missions.
+R-5: adjusted altitude parameter, changed stock rewards. Changed pre-req to R-2E. Changed group to new Soviet_Early_Missions.
+R-11: adjusted altitude parameter, changed stock rewards. Changed group to new Soviet_Early_Missions.
+R-7: changed stock to match RSS. changed stock rewards. Changed pre-req to R-11. Changed group to new Soviet_Early_Missions.
+R-12: changed stock to match RSS. changed stock rewards. Changed group to new Soviet_Early_Missions.
+M-100: changed stock to match RSS. changed stock rewards. Changed group to new Soviet_Early_Missions.
+
+R-7A: adjusted altitude parameter, changed stock rewards. Changed pre-req to R-12.
+R-17: changed stock rewards. Changed pre-req to R-12.
+R-14: adjusted altitude parameter, changed stock rewards. Changed pre-req to R-7A.
+R-16: adjusted altitude parameter, changed stock rewards. Changed pre-req to R-14.
+R-9A: adjusted altitude parameter, changed stock rewards. Changed pre-req to R-16.
+R-36: adjusted altitude parameter, changed stock rewards.
+UR-100: adjusted altitude parameter, changed stock rewards. Changed pre-req to Zond-2.
+
+Sputnik-1: adjusted orbit parameters. changed stock to match RSS. rebalanced rewards. Changed pre-req to R-7.
+Sputnik-2: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Sputnik-3: adjusted orbit parameters. changed stock to match RSS. changed stock rewards. Changed pre-req to Sputnik-2.
+
+Luna-E1: changed stock rewards. Renamed to Luna-E1-1.
+Luna-E1A-No1: removed, double with Luna-E1-1.
+Luna-E1-No2: changed stock rewards. Renamed to Luna-E1-2.
+Luna-E1-No3: changed stock rewards. Renamed to Luna-E1-3.
+Luna-1: changed stock to match RSS. changed stock rewards. Changed pre-req to Luna-E1-3.
+Luna-2: changed stock to match RSS. changed stock rewards. Changed pre-req to Luna-1.
+Luna-3: Added science transmit parameter. changed stock to match RSS. changed stock rewards.
+Luna-E3-No1: changed stock rewards. Renamed to Luna-E3-1.
+Luna-E3-No2: changed stock rewards. Renamed to Luna-E3-2. Changed parameter to flying; added/changed launch info.
+Luna-E6-No2: adjusted orbit parameters. changed stock rewards. Renamed to Luna-E6-2. Changed pre-req to Vostok-4.
+Luna-E6-No3: changed stock rewards. Renamed to Luna-E6-3. Changed pre-req to Luna-E6-2.
+Luna-4: changed stock to match RSS. changed stock rewards. Changed pre-req to Luna-E6-3.
+Luna-5: changed stock to match RSS. changed stock rewards. Changed pre-req to Luna-4; added cooldown to RSS.
+Luna-6: adjusted orbit parameters. changed stock rewards. Reduced stock Mun distance to stay within Mun SOI.
+
