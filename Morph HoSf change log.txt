@@ -716,3 +716,20 @@ Luna-11: Added science transmit parameter. adjusted orbit parameters; max Ap & P
 Luna-12: Added science transmit parameter. adjusted orbit parameters; max Ap & Pe instead of min. changed stock rewards.
 Luna-13: Formatting. Added science transmit parameter. changed stock rewards.
 
+
+11-3-2020:
+
+Elektron-1: added transmit science parameters to both Elektrons. adjusted orbit parameters. changed stock rewards. Changed pre-req to Luna-4. Changed group to new ElektronMissions.
+Elektron-3: added transmit science parameters to both Elektrons. adjusted orbit parameters. changed stock rewards. Changed group to new ElektronMissions.
+
+Mars-1M-1: changed stock rewards.
+Mars-1M-2: changed stock rewards.
+Mars-2MV-3-1: removed, double with Venera-2MV-2SA
+Mars-1: adjusted encounter parameters. changed stock to match RSS. changed stock rewards. Changed pre-req to Venera-2MV-2SA.
+
+Venera-1VA-1: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Venera-1: adjusted encounter parameters. changed stock to match RSS. changed stock rewards. Changed pre-req to Venera-1VA-1.
+Venera-2MV-1: adjusted orbit parameters. changed stock to match RSS. changed stock rewards. Changed pre-req to Venera-1.
+Venera-2MV-2SA: adjusted orbit parameters. changed stock to match RSS. changed stock rewards. Changed pre-req to Venera-2MV-1.
+Venera-2: adjusted encounter parameters. changed stock to match RSS. changed stock rewards. Changed pre-req to Luna-7.
+Venera-3: description editing. changed stock to match RSS. changed stock rewards. Changed pre-req to Venera-2.
