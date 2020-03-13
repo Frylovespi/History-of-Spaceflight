@@ -733,3 +733,38 @@ Venera-2MV-1: adjusted orbit parameters. changed stock to match RSS. changed sto
 Venera-2MV-2SA: adjusted orbit parameters. changed stock to match RSS. changed stock rewards. Changed pre-req to Venera-2MV-1.
 Venera-2: adjusted encounter parameters. changed stock to match RSS. changed stock rewards. Changed pre-req to Luna-7.
 Venera-3: description editing. changed stock to match RSS. changed stock rewards. Changed pre-req to Venera-2.
+
+
+13-3-2020:
+
+Molniya-1A: changed name to Molniya-1-01. adjusted orbit parameters. changed stock to match RSS. changed stock rewards. Changed pre-req to Zond-2. Changed group to new MolniyaMissions.
+Molniya-1B: changed name to Molniya-1-02. adjusted orbit parameters. changed stock to match RSS. changed stock rewards. Changed group to new MolniyaMissions.
+Molniya-1C: changed name to Molniya-1-03. adjusted orbit parameters. changed stock to match RSS. changed stock rewards. Changed group to new MolniyaMissions.
+Molniya-1D: changed name to Molniya-1-04. adjusted orbit parameters. changed stock to match RSS. changed stock rewards. Changed group to new MolniyaMissions.
+
+Polyot-1: adjusted orbit parameters. changed stock to match RSS. changed stock rewards. Changed group to new PolyotMissions.
+Polyot-2: adjusted orbit parameters. changed stock to match RSS. changed stock rewards. Changed pre-req to Polyot-1. Changed group to new PolyotMissions.
+
+Proton-1: Added transmit science parameter. adjusted orbit parameters. changed stock to match RSS. changed stock rewards. Changed pre-req to Molniya-1-01. Changed group to new ProtonMissions.
+Proton-2: Added transmit science parameter. adjusted orbit parameters. changed stock to match RSS. changed stock rewards. Changed group to new ProtonMissions.
+Proton-3: Added transmit science parameter. adjusted orbit parameters. changed stock to match RSS. changed stock rewards. Changed group to new ProtonMissions.
+
+Zond-2: adjusted encounter parameters. changed stock to match RSS. changed stock rewards. Changed pre-req to Elektron-3.
+Zond-3: Added transmit science parameter. changed stock to match RSS. changed stock rewards. Changed pre-req to Zond-2.
+
+Korabl-Sputnik-1: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Korabl-Sputnik-A1: changed stock to match RSS. changed stock rewards.
+Korabl-Sputnik-2: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Korabl-Sputnik-3: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Korabl-Sputnik-4: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Vostok-1: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Vostok-2: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Vostok-3: Added recover science parameter. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Vostok-4: Added recover science parameter. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Vostok-5: Added recover science parameter. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Vostok-6: Added recover science parameter. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+
+Voskhod-3KV-No.1: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Voskhod-1: Added recover science parameter. adjusted orbit parameters. changed stock to match RSS. changed stock rewards. Changed pre-req to Voskhod-3KV-1.
+Voskhod-2: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+
