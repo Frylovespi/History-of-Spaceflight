@@ -817,3 +817,56 @@ Kosmos-36: adjusted orbit parameters. changed stock to match RSS. changed stock 
 Kosmos-37: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
 Kosmos-38-40: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
 
+
+14-3-2020:
+
+Kosmos-41: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-42-43: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-44: adjusted orbit parameters. changed stock to match RSS. changed stock rewards. removed cooldown from stock.
+Kosmos-45: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-46: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-48: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-49: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-50: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-51: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-52: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-53: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-54-56: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-58: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-59: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-61-63: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-64: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-65: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-66: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-67: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-68: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-69: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-70: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-71-75: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-76: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-77: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-78: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-79: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-80-84: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-81: removed, already included in Kosmos-80-84.
+Kosmos-85: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-86-90: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-91: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-92: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-93: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-94: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-95: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-97: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-98: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-99: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-100: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-101: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-102: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-103: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-104: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-105: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-106: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-107: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-108: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-109: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-110: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
