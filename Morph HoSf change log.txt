@@ -120,7 +120,7 @@ SM-65E-Atlas: Adjusted stock rewards and both stock & RSS altitude parameter.
 SM-68A-Titan-I: Adjusted stock rewards and both stock & RSS altitude parameter. Fixed RSS synopsis.
 
 Canada Missions
-Alouette-1: Adjusted stock rewards and description, adjusted orbit parameters. Changed stock group to CanadaSatellites.
+Alouette-1: Adjusted stock rewards and description, adjusted orbit parameters. Changed stock group to CanadaSatellites. Changed pre-req to ANNA-1A.
 Alouette-2: Adjusted stock rewards and description, adjusted orbit parameters. Changed stock group to CanadaSatellites.
 Black Brant-I: Removed max alt, adjusted stock parameters.
 Black Brant-II: Removed max alt, adjusted stock parameters, removed stock cooldown.
@@ -870,3 +870,39 @@ Kosmos-107: Formatting. adjusted orbit parameters. changed stock to match RSS. c
 Kosmos-108: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
 Kosmos-109: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
 Kosmos-110: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+
+
+15-3-2020:
+
+Kosmos-112: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-113: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-114: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-115: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-116: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-117: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-118: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-119: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-120: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-121: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-122: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-123: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-124: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-125: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-126: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-127: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-128: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-129: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-130: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-131: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-132: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-134: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-135: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-136: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-137: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+
+Expanded installation instructions: optional removal of certain contract sets explained.
+Expanded readme.md: crediting added.
+Removed R-7 req for stock to allow players to skip early missile testing.
+Fixed Logo references for agents in main cfg file.
+Various bugfixes for RSS version.
+Added :NEEDS[RP-0] to all RSS contracts with DownrangeDistance parameter (doesn't apply to stock). This prevents those contracts failing to load when RP-0/RP-1 isn't installed.
