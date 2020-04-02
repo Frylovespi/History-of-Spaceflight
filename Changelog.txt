@@ -4,7 +4,7 @@
 - Changed progression tree to be more logical and separated. There are now 3 main trees: US, Soviet, International. Within US and Soviet trees, progression is kept within individual programs much more than before.
 - Added :NEEDS[RP-0] to all RSS contracts with DownrangeDistance parameter (doesn't apply to stock). This prevents those contracts failing to load when RP-0/RP-1 isn't installed.
 - Added "Pocket Edition" version: a light version of the Stock version that does away with almost all the failure missions and repetitiveness.
-- US extra quality update: many extra parameters to nearly all missions included in the Pocket Edition. These additions have also been carried over to those same missions in the Stock edition.
+- US extra quality update: many extra parameters to nearly all missions included in the Pocket Edition, including a lot of stuff specifically for users of the highly recommended Bluedog Design Bureau. These additions have also been carried over to those same missions in the Stock edition.
 
 **Version 0.7.0 (In progress available on github)
 - Started adding new contract from 1967 onwards
