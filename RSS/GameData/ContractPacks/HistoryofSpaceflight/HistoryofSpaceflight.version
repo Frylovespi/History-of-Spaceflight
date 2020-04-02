@@ -1,0 +1,30 @@
+{
+	"NAME":"Contract Pack: Historical Progression",
+	"URL":"https://github.com/Frylovespi/History-of-Spaceflight/blob/master/HistoryofSpaceflight.version",
+	"DOWNLOAD":"https://github.com/Frylovespi/History-of-Spaceflight/releases",
+	"VERSION":
+	{
+		"MAJOR":0,
+		"MINOR":8,
+		"PATCH":0,
+		"BUILD":0
+	},
+	"KSP_VERSION":
+	{
+		"MAJOR":1,
+		"MINOR":8,
+		"PATCH":1
+	},
+	"KSP_VERSION_MIN":
+	{
+		"MAJOR":1,
+		"MINOR":2,
+		"PATCH":2
+	},
+	"KSP_VERSION_MAX":
+	{
+		"MAJOR":1,
+		"MINOR":99,
+		"PATCH":99
+	}
+}
