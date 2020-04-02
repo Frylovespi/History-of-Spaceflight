@@ -6,6 +6,8 @@ Forum Thread: https://forum.kerbalspaceprogram.com/index.php?/topic/173683-13114
 
 Credits to:
 
+Frylovespi - The creator and original author of this mod
+
 Pap1723 - for the stock credit reward structure
 
 Whitecat106 - for the Historic Missions contract pack, which this pack is inspired by and builds upon
