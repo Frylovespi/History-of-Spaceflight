@@ -1,0 +1,908 @@
+17-2-2020:
+
+Removed stock US mission dependencies on other nations missions, replacing them with logical US precursors.
+Placed RSS early missions in nation-specific earlymission folders.
+Placed Australian missions in stock folder.
+Adjusted stock mission folder names to match RSS naming.
+Canadian Black Brant missions added from RSS to stock.
+Chinese Dongfeng -B missions added from stock to RSS.
+Chinese T-7 missions added from RSS to stock.
+France Belier-1 added from RSS to stock.
+France Berenice 1A & 1B added from stock to RSS.
+Japan Kappa 6H to 10S missions added from RSS to stock.
+Japan Lambda 4S-3 added from RSS to stock.
+Soviet R7A, R9A, R14 & R17 ballistic missions added from RSS to stock.
+Soviet Kosmos 81 mission added from stock to RSS.
+Soviet Mars-2MV-3-1 mission added from stock to RSS.
+Soviet Voskhod-3KV mission added from RSS to stock.
+UK Black Knight added from RSS to stock.
+USA Atlas 65B & 65D ballistic missions added from RSS to stock.
+Stock USA Courier missions moved from Misc to comms.
+USA IDSCS comms missions added from RSS to stock.
+USA Intelsat 2 & 2B missions added from RSS to stock.
+Stock Intelsat 2 edits to config to fit stock requirements, fix rewards.
+Stock Intelsat 2-F1 contract removed; same launch as Intelsat 2 (for some reason these were defined very differently. Adjusted RSS version is superior).
+RSS Instelsat 2 fixed reputation reward; was -1, now 5 (same as stock).
+RSS USA SECOR & Transit contracts moved to communications map, to align with stock layout.
+USA SECOR missions 1,2,3,6,7,8 added from stock to RSS.
+USA Transit missions 5A2 & 5B3 added from RSS to stock.
+USA LauncherTest missions Atlas-Centaur 1 & 3 added from RSS to stock.
+USA Mercury Missions Mercury-Atlas 2 & 3, Mercury-Scout-1 added from RSS to stock.
+RSS USA DMSP mission DMSP-4A-F2 .cfg removed from (double file!)
+NOTE: stock Corona (FTV) missions are same as RSS Discoverer 40+; number of missions and mission descriptions, objectives are however different. Aligment needed!
+USA Recon missions Ferret 1 & 5 added from RSS to stock.
+USA Recon missions Midas 8 & 9 added from RSS to stock.
+USA Recon mission Lanyard-1 added from RSS to stock.
+USA Research missions ERS added from stock to RSS.
+USA Research missions GGSE-3 added from stock to RSS.
+USA Research missions SOLRAD 1,2,3,7A,7B,8 added from stock to RSS.
+USA Research missions SOLRAD 4A & 4B added from RSS to stock.
+USA Misc missions added from stock to RSS: Beacon-Explorer-A, Calsphere 1 & 4A, DODECAPOLE 1 & 2, DODGE, GGTS-1, LCS-1, LOFTI-2A, P-11-AS, Radose, Snapshot, STARAD, Surcal-1A.
+RSS Early missions moved to their respective nations.
+
+
+18-2-2020:
+
+------
+Established balance and progression objectives:
+
+Atmospheric height and distance objectives should be at 1/2 scale. Orbital height objectives should be at 1/4 scale - this is relatively high in stock, however balanced for the stock and stockalike parts capabilities. 
+This means it is also perfectly balanced for ~2.5x scale systems such as JNSQ. 
+Atmosphere height needs some adjustment of the general rule however, since it ends relatively higher than in RSS. RSS space start is 140km; stock is 70km, JNSQ is 85km. 
+For orbital parameters, this means keeping in mind usage of re-scaled mods up to 3x; don't use periapsis below ~140k to keep some margin.
+Don't use maximum Ap & Pe for stock contracts; minimum only. Where Ap and/or Pe are below 140km, don't use those limits. Instead use minimum eccentricity to achieve similar orbit regardless of scale.
+Remove negative rep rewards for failed launch missions - rep is already deducted for loss of craft.
+Mission prereqs should be within the specified program where logical, ie. Explorer, Corona.
+Any branches should branch off of Mercury, Pioneer or Explorer programs, those being the main development programs. Don't want to force anyone to do 40 Corona missions before getting somewhere new and fun...
+------
+
+USA Early missions
+Added sequential numbering to config file names, to help with following the sequence.
+Tiny Tim: mission removed prerequisite requirement, removed mass req from stock, Removed max alt req from stock & rss.
+Blossom-1: stock contract rewards adjusted, texts edited. Formatting.
+WAC-Corporal: stock contract parameters adjusted. Removed max alt req from stock & rss.
+Deacon: stock contract parameters adjusted. Removed max alt req from stock & rss.
+Corporal-E: changed prerequisite to Deacon. Stock contract parameters adjusted, removed mass req from stock, removed downrange distance from stock. Removed max alt req from stock & rss.
+RTV-A-3-NATIV: changed prerequisite to Aerobee. Stock contract parameters adjusted, removed mass req from stock, removed downrange distance from stock. Removed max alt req from stock & rss.
+Viking: changed prerequisite to RTV-A-3-NATIV. Stock contract parameters adjusted, removed mass req from stock. Removed max alt req from stock & rss.
+Aerobee: Corrected text info and dating: first launch was in 1947. changed prerequisite to Corporal-E. Stock contract parameters adjusted, removed mass req from stock. Removed max alt req from stock & rss.
+Nike: removed entirely; very limited and conflicting sources about Nike solo flights and performance. Also, it was unguided and so not fitting.
+Nike-Ajax: Corrected text info and dating: first launch was in 1950. changed prerequisite to Viking. Stock contract parameters adjusted, removed mass req from stock. Removed max alt req from stock & rss.
+Hermes A-1: Changed prerequisite to Nike-Ajax. Stock contract parameters adjusted, removed mass req from stock. Removed max alt req from stock & rss.
+MGM-5 Corporal: Stock contract parameters adjusted, removed mass req from stock, removed downrange distance from stock. Removed max alt req from stock & rss.
+ermes A-2: Changed prerequisite to Hermes A-1. Stock contract parameters adjusted, removed mass req from stock, removed downrange distance from stock. Removed max alt req from stock & rss.
+Hermes A-3: Stock contract parameters adjusted, removed mass req from stock, removed downrange distance from stock. Removed max alt req from stock & rss.
+PGM-11 Redstone: Changed prerequisite to Hermes A-3. Stock contract parameters adjusted, removed mass req from stock. Removed max alt req from stock & rss.
+Aerobee-Hi: Changed prerequisite to Aerobee. Stock contract parameters adjusted, removed mass req from stock. Removed max alt req from stock & rss.
+X-17: Changed prerequisite to PGM-11-Redstone. Removed mass req from stock.
+ASP: Stock contract parameters adjusted, removed mass req from stock. Removed max alt req from stock & rss.
+MGM-29-Sergeant: Stock contract parameters adjusted, removed mass req from stock, removed downrange distance from stock. Removed max alt req from stock & rss.
+Cajun: Stock contract parameters adjusted, removed mass req from stock. Removed max alt req from stock & rss.
+Nike-Cajun: Stock contract parameters adjusted, removed mass req from stock. Removed max alt req from stock & rss.
+Jupiter-C: Stock contract parameters adjusted, removed distance req from stock. Removed max alt req from stock & rss.
+Terrapin: Stock contract parameters adjusted, removed mass req from stock. Removed max alt req from stock & rss.
+PGM-17-Thor: Added returnHome parameter to stock. Removed max alt req from rss.
+PGM-19-Jupiter: Stock contract parameters adjusted, removed mass req from stock, removed distance req from stock. Removed max alt req from stock & rss.
+Nike-Hercules: Stock contract parameters adjusted, removed mass req from stock. Removed max alt req from stock & rss.
+SM-65A-Atlas: Changed prerequisite to PGM-19-Jupiter. Stock contract parameters adjusted, adjusted stock rewards. RSS description copied to stock.
+Nike-Apache: Changed prerequisite to Nike-Hercules. Stock contract parameters adjusted, removed mass req from stock. Removed max alt req from stock & rss.
+
+Changed group AtlasCentaurMissions to USA_Early_Missions.
+Changed all USA Early missions to group USA_Early_Missions.
+Create International folder and move all non-Soviet and USA missions there to create separate International pack; Canada missions moved to USA missions since they use US facilities and LVs (Black Brant is the only exception)
+Replace stock main .cfg file with RSS version; better contract grouping, more agents and info.
+Add RSS logos to stock logo folder.
+Moved BallisticMissileTests missions to LauncherTests.
+
+USA LauncherTests
+AS-201: Adjusted stock rewards and description, added returnHome parameter to stock.
+AS-202: Adjusted stock rewards and description, added returnHome parameter to stock. Changed prerequisite to AS-203.
+AS-203: Adjusted stock rewards and description, added inclination to stock orbit parameter. Changed prerequisite to AS-201. Corrected description.
+Atlas-Centaur-2: Adjusted stock rewards and description, added inclination to orbit parameter, adjusted stock orbit parameters. Changed stock prerequisite to Atlas-Centaur-1.
+Atlas-Centaur-3: Changed group to LaunchMissions
+Atlas-Centaur-8: Adjusted stock rewards, added inclination & eccentricity to stock orbit parameters, removed Ap & Pe req from stock.
+Atlas-Centaur-9: Adjusted stock rewards, added inclination & eccentricity to stock orbit parameters, removed Ap & Pe req from stock.
+Saturn-SA-2: Adjusted stock rewards & description.
+Saturn-SA-3: Adjusted stock rewards & description.
+Saturn-SA-4: Adjusted stock rewards & description.
+Saturn-SA-5: Adjusted stock rewards & description, added inclination to orbit parameters, added eccentricity to stock orbit. Removed Pe req from stock.
+Saturn-SA-6: Adjusted stock rewards & description, added inclination to orbit parameters, added eccentricity to stock orbit, removed Ap & Pe req from stock.
+Saturn-SA-7: Adjusted stock rewards & description, added inclination to orbit parameters, added eccentricity to stock orbit, removed Ap & Pe req from stock.
+Saturn-SA-8: removed, doubled with Pegasus-2.
+Saturn-SA-9: removed, doubled with Pegasus-1.
+Saturn-SA-10: removed, doubled with Pegasus-3.
+LGM-25C-Titan-II: Adjusted stock rewards and altitude parameter.
+LGM-30A-Minuteman: Adjusted stock rewards and altitude parameter.
+LGM-30F-Minuteman-II: Adjusted stock rewards and altitude parameter.
+SM-65B-Atlas: Adjusted stock rewards and altitude parameter.
+SM-65D-Atlas: Adjusted stock rewards and both stock & RSS altitude parameter.
+SM-65E-Atlas: Adjusted stock rewards and both stock & RSS altitude parameter.
+SM-68A-Titan-I: Adjusted stock rewards and both stock & RSS altitude parameter. Fixed RSS synopsis.
+
+Canada Missions
+Alouette-1: Adjusted stock rewards and description, adjusted orbit parameters. Changed stock group to CanadaSatellites. Changed pre-req to ANNA-1A.
+Alouette-2: Adjusted stock rewards and description, adjusted orbit parameters. Changed stock group to CanadaSatellites.
+Black Brant-I: Removed max alt, adjusted stock parameters.
+Black Brant-II: Removed max alt, adjusted stock parameters, removed stock cooldown.
+Black Brant-III: Removed max alt, adjusted stock parameters, removed stock cooldown.
+
+Misc Missions
+SCORE: moved to Communications. Description edited. Adjusted stock orbit parameters. Changed group to USA_Communications_Programs.
+
+
+19-2-2020:
+
+Explorer Program
+Explorer-1: Adjusted stock rewards & description. Adjusted orbit parameters.
+Explorer-2: Adjusted rewards & description.
+Explorer-3: Adjusted stock rewards & description. Adjusted orbit parameters.
+Explorer-4: Adjusted stock rewards & description. Adjusted orbit parameters. Changed pre-req to Explorer 3.
+Explorer-5: Adjusted rewards & description.
+Explorer-6: Adjusted stock rewards & description. Adjusted orbit parameters. Changed pre-req to Explorer 7X.
+Explorer-7: Adjusted stock rewards & description. Adjusted orbit parameters. Changed pre-req to Explorer 6.
+Explorer-7X: Adjusted stock rewards & description. Changed pre-req to Explorer-5.
+Explorer-8: Adjusted stock rewards & description. Adjusted orbit parameters. Changed pre-req to Explorer 7.
+Explorer-9: Adjusted stock rewards & description. Adjusted orbit parameters.
+Explorer-10: Adjusted stock rewards & description. Adjusted orbit parameters.
+Explorer-11: Adjusted stock rewards & description. Adjusted orbit parameters.
+Explorer-12: Adjusted stock rewards & description. Adjusted orbit parameters.
+Explorer-13: Adjusted stock rewards & description. Adjusted orbit parameters.
+Explorer-14: Adjusted stock rewards & description. Adjusted orbit parameters.
+Explorer-15: Adjusted stock rewards & description. Adjusted orbit parameters.
+Explorer-16: Adjusted stock rewards & description. Adjusted orbit parameters.
+Explorer-17: Adjusted stock rewards & description. Adjusted orbit parameters.
+Explorer-18: Adjusted stock rewards & description. Adjusted orbit parameters. Changed pre-req to Explorer 17.
+Explorer-19: Adjusted stock rewards & description. Adjusted orbit parameters.
+Explorer-20: Adjusted stock rewards & description. Adjusted orbit parameters.
+Explorer-21: Adjusted stock rewards & description. Adjusted orbit parameters.
+Explorer-22: Adjusted stock rewards & description. Adjusted orbit parameters.
+Explorer-23: Adjusted stock rewards & description. Adjusted orbit parameters.
+Explorer-24-25: Combined the separated stock contracts for 24-25 into one contract (like in RSS). Adjusted orbit parameters.
+Explorer-26: Adjusted stock rewards & description. Adjusted orbit parameters.
+Explorer-27: Adjusted stock rewards & description. Adjusted orbit parameters.
+Explorer-28: Adjusted stock rewards & description. Adjusted orbit parameters.
+Explorer-29: Adjusted stock rewards & description. Adjusted orbit parameters.
+Explorer-30: Adjusted stock rewards & description. Adjusted orbit parameters.
+Explorer-31: Adjusted stock rewards & description. Adjusted orbit parameters.
+Explorer-32: Adjusted stock rewards & description. Adjusted orbit parameters.
+Explorer-33: Adjusted stock rewards & description. Removed MinApA from Mun/Moon escape parameter.
+Explorer-34: Adjusted stock rewards & description. Adjusted orbit parameters.
+Explorer-35: Adjusted stock rewards & description. Adjusted Mun/Moon orbit parameters.
+Explorer-S45: Adjusted stock rewards & description. Changed pre-req to Explorer-9.
+Explorer-S45A: Adjusted stock rewards & description. Changed pre-req to Explorer-11.
+Explorer-S46: Adjusted descriptions.
+Explorer-S55: Adjusted descriptions.
+Explorer-S56: Adjusted stock rewards & description. Changed pre-req to Explorer-8.
+
+Vanguard Program
+Vanguard-1: Adjusted stock rewards & description. Adjusted orbit parameters. Changed pre-req to Vanguard-TV3-Backup.
+Vanguard-TV3: Adjusted stock rewards & description. Changed pre-req to SM-65A-Atlas.
+Vanguard-TV3-Backup: Adjusted stock rewards & description.
+Vanguard-TV5: Adjusted stock rewards & description. Changed pre-req to Vanguard-1.
+Vanguard-SLV-1: Adjusted stock rewards & description.
+Vanguard-SLV-2: Adjusted stock rewards & description. Changed stock parameter from sub-orbital to flying @ 40km.
+Vanguard-SLV-3: Adjusted stock rewards & description. Changed pre-req to Vanguard-SLV-2.
+Vanguard-2: Adjusted stock rewards & description. Adjusted orbit parameters. Changed pre-req to Vanguard-SLV-3.
+Vanguard-SLV-5: Adjusted stock rewards & description.
+Vanguard-SLV-6: Adjusted stock rewards & description. Changed stock parameter from sub-orbital to flying. Changed stock pre-req to Vanguard-SLV-5.
+Vanguard-3: Adjusted stock rewards & description. Adjusted orbit parameters. Changed stock pre-req to Vanguard-SLV-6.
+
+Pioneer Program
+Pioneer-0: Adjusted stock rewards & description.
+Pioneer-1: Adjusted stock rewards & description. Adjusted altitude parameter.
+Pioneer-2: Adjusted stock rewards & description. Adjusted altitude parameter.
+Pioneer-3: Adjusted stock rewards & description. Adjusted altitude parameter. 
+Pioneer-4: Adjusted stock rewards & description. Adjusted stock orbit parameters. Changed RSS pre-req to Pioneer-3.
+Pioneer-5: Adjusted stock rewards & description. Changed stock pre-req to Pioneer-P-3.
+Pioneer-6: Adjusted stock rewards & description. Changed pre-req to Pioneer-P-31. Added 100 day cooldown before contract appears.
+Pioneer-7: Adjusted stock rewards & description.
+Pioneer-P-3: Adjusted stock rewards & description. Changed pre-req to Pioneer-4.
+Pioneer-P-30: Adjusted stock rewards & description. Changed pre-req to Pioneer-5.
+Pioneer-P-31: Adjusted stock rewards & description.
+
+Project Beacon
+Added BeaconMissions group; moved missions to ResearchSatellites.
+Beacon-1: Adjusted stock rewards & description. Changed RSS parameter from sub-orbital to flying.
+Beacon-2: Adjusted stock rewards & description. Changed stock parameter from flying to sub-orbital. Changed pre-req to Beacon-1. Added 1 day cooldown before contract appears.
+
+Pegasus Program
+Added PegasusMissions group.
+Pegasus-1: Adjusted rewards & description. Adjusted orbit parameters.
+Pegasus-2: Adjusted rewards & description. Adjusted orbit parameters.
+Pegasus-3: Adjusted rewards & description. Adjusted orbit parameters.
+
+
+20-2-2020:
+
+Corona Program
+Discoverer-1: Adjusted rewards, title & description. Changed objective from sub-orbital to orbit.
+Discoverer-2: Adjusted rewards, title & description. Adjusted orbit parameters.
+Discoverer-3: Adjusted rewards, title.
+Discoverer-4: Adjusted rewards, title.
+Discoverer-5: Adjusted rewards, title. Adjusted orbit parameters.
+Discoverer-6: Adjusted rewards, title. Adjusted orbit parameters.
+Discoverer-7: Adjusted rewards, title. Adjusted orbit parameters.
+Discoverer-8: Adjusted rewards, title. Adjusted orbit parameters.
+Discoverer-9: Adjusted rewards, title.
+Discoverer-10: Adjusted rewards, title.
+Discoverer-11: Adjusted rewards, title. Adjusted orbit parameters.
+Discoverer-12: Adjusted rewards, title.
+Discoverer-13: Adjusted rewards, title. Adjusted orbit parameters.
+Discoverer-14: Adjusted rewards, title. Adjusted orbit parameters.
+Discoverer-15: Adjusted rewards, title & description. Adjusted orbit parameters.
+Discoverer-16: Adjusted rewards, title & description.
+Discoverer-17: Adjusted rewards, title. Adjusted orbit parameters.
+Discoverer-18: Adjusted rewards, title. Adjusted orbit parameters.
+Discoverer-19: Adjusted rewards, title. Adjusted orbit parameters. Added science parameter to stock.
+Discoverer-20: Adjusted rewards, title & description. Adjusted orbit parameters.
+Discoverer-21: Adjusted rewards, title. Adjusted orbit parameters.
+Discoverer-22: Adjusted rewards, title.
+Discoverer-23: Adjusted rewards, title. Adjusted orbit parameters.
+Discoverer-24: Adjusted rewards, title.
+Discoverer-25: Adjusted rewards, title. Adjusted orbit parameters. Added science recovery parameter.
+Discoverer-26: Adjusted rewards, title. Adjusted orbit parameters. Added science recovery parameter.
+Discoverer-27: Adjusted rewards, title.
+Discoverer-28: Adjusted rewards, title.
+Discoverer-29: Adjusted rewards, title. Adjusted orbit parameters.
+Discoverer-30: Adjusted rewards, title. Adjusted orbit parameters.
+Discoverer-31: Adjusted rewards, title. Adjusted orbit parameters. Remove recovery from stock parameters.
+Discoverer-32: Adjusted rewards, title. Adjusted orbit parameters.
+Discoverer-33: Adjusted rewards, title.
+Discoverer-34: Adjusted rewards, title. Adjusted orbit parameters. Remove recovery from stock parameters.
+Discoverer-35: Adjusted rewards, title & description. Adjusted orbit parameters.
+Discoverer-36: Adjusted rewards, title. Adjusted orbit parameters. Added OSCAR-1 parameter to stock.
+Discoverer-37: Adjusted rewards, title.
+Discoverer-38: Adjusted rewards, title & description. Adjusted orbit parameters.
+Discoverer-39: Adjusted rewards, title & description. Adjusted orbit parameters.
+
+Added group Corona for FTV/Discoverer40+ missions, renaming all of them to Corona/KH designations.
+Discoverer-40/FTV-1125: Renamed to Corona-40. Adjusted rewards, title & description. Adjusted orbit parameters.
+Discoverer-41/FTV-1126: Renamed to Corona-41. Adjusted rewards, title & description. Adjusted orbit parameters.
+Discoverer-42/FTV-1128: Renamed to Corona-42. Adjusted rewards, title & description. Adjusted orbit parameters.
+Discoverer-43/FTV-1127: Renamed to Corona-43. Adjusted rewards, title & description. Adjusted orbit parameters.
+Discoverer-44/FTV-1129: Renamed to Corona-44. Adjusted rewards, title & description. Adjusted orbit parameters.
+Discoverer-45/FTV-1151: Renamed to Corona-45. Adjusted rewards, title & description. Adjusted orbit parameters.
+Discoverer-46/FTV-1130: Renamed to Corona-46. Adjusted rewards, title & description. Adjusted orbit parameters.
+Discoverer-47/FTV-1131: Renamed to Corona-47. Adjusted rewards, title & description. Adjusted orbit parameters.
+Discoverer-48/FTV-1152: Renamed to Corona-48. Adjusted rewards, title & description. Adjusted orbit parameters.
+Discoverer-49: Created stock version. Renamed to Corona-49. Adjusted rewards, title & description. Adjusted orbit parameters.
+Discoverer-50/FTV-1132: Renamed to Corona-50. Adjusted rewards, title & description. Adjusted orbit parameters.
+Discoverer-51/FTV-1133: Renamed to Corona-51. Adjusted rewards, title & description. Adjusted orbit parameters.
+Discoverer-52/FTV-1154: Renamed to Corona-52. Adjusted rewards, title & description. Adjusted orbit parameters.
+Discoverer-53/FTV-1134: Renamed to Corona-53. Adjusted rewards, title & description. Adjusted orbit parameters.
+Discoverer-54/FTV-1136: Renamed to Corona-55. Adjusted rewards, title & description. Adjusted orbit parameters. Added science recovery parameter.
+STARAD: Renamed to Corona-54 STARAD. Adjusted rewards, title & description. Adjusted orbit parameters. Added science recovery parameter.
+Discoverer-55/FTV-1135: Renamed to Corona-56. Adjusted rewards, title & description. Adjusted orbit parameters.
+Discoverer-56/FTV-1155: Renamed to Corona-57. Adjusted rewards, title & description. Adjusted orbit parameters.
+Discoverer-57/FTV-1156: Renamed to Corona-58. Adjusted rewards, title & description. Adjusted orbit parameters.
+Discoverer-58: Created stock version. Renamed to Corona-59. Adjusted rewards, title & description. Adjusted orbit parameters.
+Discoverer-59: Created stock version. Renamed to Corona-60. Adjusted rewards, title & description. Adjusted orbit parameters.
+
+Project Courier
+Courier-1A: Adjusted rewards, stock description & changed group to CourierMissions. Changed pre-req to Pioneer-5.
+Courier-1B: Adjusted rewards, stock description & changed group to CourierMissions. Adjusted orbit parameters.
+
+Project Echo
+Echo-X: Adjusted stock description and rewards, changed group to EchoMissions.
+Echo-1: Adjusted stock description and rewards, changed group to EchoMissions. Adjusted orbit parameters.
+Echo-2: Adjusted stock description and rewards, changed group to EchoMissions. Adjusted orbit parameters.
+
+IDCSP Missions
+IDCSP 1-7 / GGTS 1: Adjusted rewards, adjusted orbit parameters. Changed pre-req to Explorer-33.
+IDCSP 8-15: Adjusted name and description to 8-14 instead of 8-15.
+IDCSP 16-23: Changed name to IDCSP 2.1-2.8. Changed pre-req to IDCSP 8-14.
+
+Intelsat Missions
+Intelsat 1: Changed name to Intelsat 1 F-1. Adjusted rewards & orbit parameters. Changed stock Orbit to Random Stationary Orbit.
+Intelsat 2: Changed name to Intelsat 2 F-1. Adjusted rewards & orbit parameters.
+Intelsat 2B: Changed name to Intelsat 2 F-2. Adjusted rewards & orbit parameters. Changed stock Orbit to Random Stationary Orbit.
+
+
+21-2-2020:
+
+LES-1: Adjusted stock description and rewards, changed group to LESMissions. Adjusted orbit parameters.
+
+
+24-2-2020:
+
+USA Early missions: changed stock rewards, altitude & orbital parameters for all missions to scale with world size.
+USA Launchertests: changed stock rewards, altitude & orbital parameters for all missions to scale with world size.
+Vanguard missions: changed stock rewards, altitude & orbital parameters for all missions to scale with world size.
+Pioneer missions: changed stock rewards, altitude & orbital parameters for all missions to scale with world size.
+Beacon missions: changed stock rewards for missions to scale with world size.
+Pegasus missions: changed stock rewards & orbital parameters for missions to scale with world size.
+Courier missions: changed stock rewards & orbital parameters for missions to scale with world size.
+Echo missions: changed stock rewards & orbital parameters for missions to scale with world size.
+IDSCS missions: changed stock rewards & orbital parameters for missions to scale with world size.
+Intelsat missions: changed stock rewards & orbital parameters for missions to scale with world size.
+Canada missions: changed stock rewards, altitude & orbital parameters for all missions to scale with world size.
+SCORE: changed stock rewards & orbital parameters for missions to scale with world size.
+
+
+26-2-2020:
+
+Explorer missions: changed stock rewards, altitude & orbital parameters for all missions to scale with world size. 
+Explorer 13: changed parameters to sub-orbital (but remaining with minimum Pe & Ap) to reflect high sub-orbital trajectory; info correction.
+Explorer 33, 35: changed stock parameters to make targetBody into first child of homeworld for planet pack compatibility.
+Misc: Removed GGTS-1, double with IDSCS 1-7.
+Misc: Removed STARAD, double with Corona 54/STARAD.
+SOLRAD: Removed SOLRAD-8, double with Explorer 30.
+Misc Beacon Explorer A: changed rewards, formatting. Moved to Explorermission group; changed pre-req to Explorer-19, Changed explorer-20 pre-req to Beacon Explorer A.
+Misc Anna missions: Adjusted rewards & orbit parameters. Moved to new AnnaMissions group under researchSats.
+Misc Aurora-1 / SECOR-9: Adjusted rewards & orbit parameters, added secondary sat to stock parameters. Moved to SECORMissions group.
+Misc Calsphere 1 /Transit 5B-4: changed name to Transit O-1. removed Calsphere contract; added Calsphere 1 & 2 info and parameters to Transit O-1 to reflect combined launch. 
+Misc Calsphere 4A /Transit 5B-7: changed name to Transit O-5. removed Calsphere contract; adjusted Transit O-5 info and applied RSS parameters and info to stock.
+Misc: Removed Dodecapole-2, double with Transit O-5.
+GGSE-2: adjusted GGSE-2 info (dodecapole 1 instead of 2) and applied RSS parameters and info to stock. Removed Dodecapole-1, SOLRAD-7B, GGSE-3, SECOR-3 missions: all included in this launch. Changed group to USA_Reconnaissance_Programs.
+GGSE-1: adjusted info and applied RSS parameters and info to stock. Changed group to USA_Reconnaissance_Programs. Removed SOLRAD-7A, SECOR-1 missions: included in this launch.
+
+
+27-2-2020:
+
+LES-2: added info and parameters for secondary satellite LCS-1, adjusted rewards & orbital parameters. LCS-1 contract removed; included in this launch.
+LES-3: added info and parameters for third & fourth satellites OV2-3 & OSCAR 4, adjusted rewards & orbital parameters. Changed stock version to similar, scalable parameters; removed separate stock LES-4 contract.
+SECOR-2: removed; already included in Transit O-3 mission.
+Transit O-3: adjusted parameters and changed stock version to similar, scalable parameters.
+SECOR-4: changed stock version to similar, scalable parameters as RSS. Snapshot contract removed; included in this launch.
+SECOR-5: adjusted parameters and changed stock version to similar, scalable parameters.
+SECOR-6: removed; already included in Midas-10 mission.
+Midas-10: adjusted parameters and changed stock version to similar, scalable parameters.
+SECOR-7: removed; already included in Midas-11 mission.
+Midas-11: adjusted parameters and changed stock version to similar, scalable parameters.
+SECOR-8: removed; already included in Midas-12 mission.
+Midas-12: adjusted parameters and changed stock version to similar, scalable parameters.
+Syncom-1: adjusted parameters and changed stock version to RandomOrbit synchronous. Changed to new group SyncomMissions. Changed stock pre-req to match RSS: Explorer-16.
+Syncom-2: adjusted parameters and changed stock version to RandomOrbit synchronous. Changed to new group SyncomMissions.
+Syncom-3: adjusted parameters and changed stock version to RandomOrbit stationary. Changed to new group SyncomMissions.
+
+
+28-2-2020:
+
+Telstar-1: adjusted parameters and changed stock version to similar, scalable parameters. Changed to new group TelstarMissions.
+Telstar-2: adjusted parameters and changed stock version to similar, scalable parameters. Changed to new group TelstarMissions. Changed RSS pre-req to Telstar-1.
+Transit-1A: changed rewards, stock description.
+Transit-1B: changed GRAB to Solrad Model, reflecting that it was a dummy of the later GRAB sat. Changed stock version to similar, scalable parameters.
+Transit-2A: adjusted parameters and changed stock version to similar, scalable parameters. Removed Solrad-1; included in this launch.
+Transit-3A: removed negative rep reward and changed stock version to similar, scalable parameters. Removed Solrad-2; included in this launch.
+Transit-3B: removed LOFTI-1 parameters and adjusted description to reflect that both sats failed to separate from upper stage. changed stock version to similar, scalable parameters.
+Transit-4A: adjusted parameters and changed stock version to similar, scalable parameters. Removed Solrad-3; included in this launch.
+Transit-4B: adjusted parameters and changed stock version to similar, scalable parameters.
+Transit-5A: adjusted parameters and changed stock version to similar, scalable parameters.
+Transit-5A2: changed stock rewards.
+Transit-5A3: adjusted parameters and changed stock version to similar, scalable parameters.
+Transit-5B-1: changed name to 5BN-1. removed APL sat from contract; confusingly, this is just another name for the Transit 5E-1 sat. adjusted parameters and changed stock version to similar, scalable parameters.
+Transit-5B-2: changed name to 5BN-2. adjusted parameters and changed stock version to similar, scalable parameters.
+Transit-5B-3: changed name to 5BN-3. changed stock rewards.
+Transit-5B-5: changed name to O-2. adjusted parameters and changed stock version to similar, scalable parameters.
+Transit-5C-1: changed stock name to match. changed stock version to similar, scalable parameters.
+Transit-10: changed name to O-6. adjusted parameters and changed stock version to similar, scalable parameters.
+Transit-11: changed name to O-7. adjusted parameters and changed stock version to similar, scalable parameters.
+Transit-12: changed name to O-8. adjusted parameters and changed stock version to similar, scalable parameters.
+Transit-13: changed name to O-9. adjusted parameters and changed stock version to similar, scalable parameters.
+Transit-14: changed name to O-10. adjusted parameters and changed stock version to similar, scalable parameters.
+
+Mercury-Atlas-1: changed pre-req to SM-65D-Atlas. Expanded description. changed stock rewards.
+Mercury-Redstone-1: changed stock to match RSS. changed stock rewards.
+Mercury-Redstone-1A: changed pre-req to Mercury-Redstone-1. adjusted altitude parameter. changed stock to match RSS.
+Mercury-Redstone-2: Expanded description. added recovery parameter. changed stock to match RSS.
+Mercury-Atlas-2: changed pre-req to Mercury-Redstone-2. changed stock rewards.
+Mercury-Atlas-3: changed stock to match RSS. changed stock rewards.
+Freedom-7: changed pre-req to Mercury-Atlas-3. adjusted altitude parameter. changed stock to match RSS. changed stock rewards.
+Liberty-Bell-7: adjusted altitude parameter. changed stock to match RSS. changed stock rewards.
+Mercury-Atlas-4: changed pre-req to Liberty-Bell-7. adjusted orbit parameter. changed stock to match RSS. changed stock rewards.
+Mercury-Scout-1: changed pre-req to Mercury-Atlas-4. changed stock rewards.
+Mercury-Atlas-5: changed pre-req to Mercury-Scout-1. adjusted orbit parameter. changed stock to match RSS. changed stock rewards.
+Friendship-7: adjusted orbit parameter. changed stock to match RSS. changed stock rewards.
+Aurora-7: adjusted orbit parameter. changed stock to match RSS. changed stock rewards.
+Sigma-7: adjusted orbit parameter. changed stock to match RSS. changed stock rewards.
+Faith-7: adjusted orbit parameter. changed stock to match RSS. changed stock rewards.
+
+Gemini-I: adjusted orbit parameter. changed stock to match RSS. changed stock rewards.
+Gemini-II: changed stock to match RSS. changed stock rewards.
+Gemini-III: adjusted orbit parameter. changed stock to match RSS. changed stock rewards.
+Gemini-IV: adjusted orbit parameter. changed stock to match RSS. changed stock rewards.
+Gemini-V: adjusted orbit parameter. changed stock to match RSS. changed stock rewards.
+Gemini-VIA: changed stock to match RSS. changed stock rewards.
+Gemini-VII: added rendezvous parameter with Gemini VIA. changed stock to match RSS. changed stock rewards.
+Gemini-VIII: changed stock to match RSS. changed stock rewards.
+Gemini-VIII ATV: added inclination & maxEccentricity to orbit parameter. changed stock to match RSS. changed stock rewards.
+Gemini-IX: changed stock to match RSS. changed stock rewards.
+Gemini-IX ATDA: added inclination & maxEccentricity to orbit parameter. changed stock to match RSS. changed stock rewards.
+Gemini-X: changed stock to match RSS. changed stock rewards.
+Gemini-X ATV: added inclination & maxEccentricity to orbit parameter. changed stock to match RSS. changed stock rewards.
+Gemini-XI: changed stock to match RSS. changed stock rewards.
+Gemini-XI ATV: added inclination & maxEccentricity to orbit parameter. changed stock to match RSS. changed stock rewards.
+Gemini-XII: changed stock to match RSS. changed stock rewards.
+Gemini-XII ATV: added inclination & maxEccentricity to orbit parameter. changed stock to match RSS. changed stock rewards.
+
+
+2-3-2020:
+
+ATS-1: adjusted orbit parameter. changed stock to match RSS. changed stock rewards, turned into Random Stationary orbit.
+ATS-2: adjusted orbit parameter. changed stock to match RSS. changed stock rewards.
+ATS-3: adjusted orbit parameter. changed stock to match RSS. changed stock rewards, turned into Random Stationary orbit.
+Biosat-1: adjusted orbit parameter. changed stock to match RSS. changed stock rewards. Changed to new group BiosatMissions.
+Biosat-2: adjusted orbit parameter. changed stock to match RSS. changed stock rewards. Changed to new group BiosatMissions. removed cooldown from stock.
+Vela-1A: adjusted orbit parameters. changed stock to match RSS. changed stock rewards. Changed to new group VelaMissions.
+Vela-2A: adjusted orbit parameters. changed stock to match RSS. changed stock rewards. Changed to new group VelaMissions. Removed ERS-13, included in this launch.
+Vela-3A: adjusted orbit parameters. changed stock to match RSS. changed stock rewards. Changed to new group VelaMissions. Removed ERS-17, included in this launch.
+ERS-20: removed; should later be added back in as a combined launch of Vela4A, Vela4B, ERS 18, ERS 20, ERS 27.
+Surveyor-1: changed stock to match RSS. changed stock rewards. added collect&transmit science parameter.
+Surveyor-2: changed stock to match RSS. changed stock rewards.
+Lunar-Orbiter-1: changed stock to match RSS. changed stock rewards. added collect&transmit science parameter.
+Lunar-Orbiter-2: adjusted orbit parameters. changed stock to match RSS. changed stock rewards. added collect&transmit science parameter.
+
+
+3-3-2020:
+
+Mariner-1: changed stock rewards. added solar panel module parameter.
+Mariner-2: adjusted orbit parameters. changed stock to match RSS. changed stock rewards. added solar panel module & science transmission parameters.
+Mariner-3: changed stock rewards. added solar panel module parameter.
+Mariner-4: changed stock rewards. added solar panel module & science transmission parameters. changed pre-req to Mariner-3.
+OGO-1: adjusted orbit parameters. changed stock to match RSS. changed stock rewards. Changed to new group OGOMissions.
+OGO-2: adjusted orbit parameters. changed stock to match RSS. changed stock rewards. Changed to new group OGOMissions. reduced stock cooldown.
+OSO-1: adjusted orbit parameters. changed stock to match RSS. changed stock rewards. changed pre-req to Explorer-16.
+OSO-2: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+
+
+4-3-2020:
+
+Ranger-1: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Ranger-2: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Ranger-3: adjusted encounter parameter. changed stock to match RSS. changed stock rewards.
+Ranger-4: added solar panel module req. changed stock to match RSS. changed stock rewards.
+Ranger-5: added solar panel module req. adjusted encounter parameter. changed stock to match RSS. changed stock rewards.
+Ranger-6: added solar panel module req. changed stock to match RSS. changed stock rewards. changed pre-req to Ranger-5.
+Ranger-7: added solar panel module req. changed stock to match RSS. changed stock rewards. added collect&transmit science parameter.
+Ranger-8: added solar panel module req. changed stock to match RSS. changed stock rewards. added collect&transmit science parameter. changed pre-req to Ranger-7.
+Ranger-9: added solar panel module req. changed stock to match RSS. changed stock rewards. added collect&transmit science parameter.
+
+Solrad-4A: changed stock rewards. changed pre-req to Explorer-16.
+Solrad-4B: changed stock rewards.
+Solrad-6: added separate parameters for included piggyback sats: LOFTI-2A, SURCAL-1B, RADOSE, Poppy-4C. adjusted orbit parameters. changed stock to match RSS. changed stock rewards. removed cooldown for stock. Removed LOFTI-2A, RADOSE contracts; included in this launch.
+ORBIS-1: removed, included in Transit 5BN-3.
+SURCAL-1A: added separate parameters for included piggyback sats: SURCAL-2A, Calsphere-1A, Black Sphere (Poppy 1A), Injun-3. adjusted orbit parameters. changed stock to match RSS. changed stock rewards. Changed group to recon program.
+OGO-3: Changed group to OGOMissions. adjusted orbit parameters. changed stock to match RSS. changed stock rewards. Changed pre-req to OGO-2.
+Transtage-1: Changed group to LauncherMissions. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+PAGEOS-1: Changed group to USA_Research_Programs. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+ESRS: Changed group to USA_Research_Programs. changed stock to match RSS. changed stock rewards. changed pre-req to Beacon-Explorer-A.
+GRS: Changed group to USA_Research_Programs. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Relay-1: Changed group to RelayMissions (communications). adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Relay-2: Changed group to RelayMissions (communications). adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+P-11-AS: removed, included in KH-7 10.
+P-21: Changed group to USA_Research_Programs. changed stock to match RSS. changed stock rewards.
+P-21A: Changed group to USA_Research_Programs. changed stock to match RSS. changed stock rewards.
+DODGE: renamed to LES-5. Changed group to LESMissions. added separate parameters for included piggyback sats: DODGE, IDCSP 3-1 to 3-4. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+
+ESSA-1: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+ESSA-2: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+ESSA-3: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+ESSA-4: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+ESSA-5: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+ESSA-6: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+
+Tiros-1: adjusted orbit parameters. changed stock to match RSS. changed stock rewards. changed pre-req to Explorer-3.
+Tiros-2: adjusted orbit parameters. changed stock to match RSS. changed stock rewards. removed cooldown for stock.
+Tiros-3: adjusted orbit parameters. changed stock to match RSS. changed stock rewards. removed cooldown for stock.
+Tiros-4: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Tiros-5: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Tiros-6: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Tiros-7: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Tiros-8: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Tiros-9: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Tiros-10: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+
+DMSP-1: Formatting. changed name to DMSP-65-072A. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+DMSP-66026: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+DMSP-4A-F1: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+DMSP-4A-F2: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+DMSP-4A-F3: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+DMSP-4A-F4: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+
+Discoverer / Corona missions: changed stock rewards, altitude & orbital parameters for all missions to scale with world size.
+
+5-3-2020:
+
+Samos-1: changed stock to match RSS. changed stock rewards.
+Samos-2: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Samos-3: changed stock to match RSS. changed stock rewards. changed pre-req to Samos-2.
+Samos-4: changed stock to match RSS. changed stock rewards.
+Samos-5: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Samos-6: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Samos-7: adjusted orbit parameters. changed stock to match RSS. changed stock rewards. added transmit science from space & vesseldestroyed parameters.
+Samos-8: adjusted orbit parameters. changed stock to match RSS. changed stock rewards. added transmit science from space parameter.
+Samos-9: adjusted orbit parameters. changed stock to match RSS. changed stock rewards. added transmit science from space parameter.
+Samos-10: adjusted orbit parameters. changed stock to match RSS. changed stock rewards. added transmit science from space parameter.
+Samos-11: adjusted orbit parameters. changed stock to match RSS. changed stock rewards. added transmit science from space and solar panel parameters.
+
+Lanyard-1: changed stock rewards.
+
+MIDAS-1: changed stock rewards.
+MIDAS-2: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+MIDAS-3: adjusted orbit parameters. changed stock to match RSS. changed stock rewards. removed cooldown from stock.
+MIDAS-4: adjusted orbit parameters. changed stock to match RSS. changed stock rewards. removed cooldown from stock; reduced RSS cooldown.
+MIDAS-5: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+MIDAS-6: changed stock rewards.
+MIDAS-7: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+MIDAS-8: changed stock rewards.
+MIDAS-9: adjusted orbit parameters. changed stock to match RSS. changed stock rewards. Added ERS-10 sat parameter.
+
+Ferret-1: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Ferret-2: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Ferret-3: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Ferret-4: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Ferret-5: adjusted orbit parameters. changed stock to match RSS. changed stock rewards. removed cooldown from stock.
+Ferret-6: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Ferret-7: adjusted orbit parameters. changed stock to match RSS. changed stock rewards. removed cooldown from stock.
+Ferret-8: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Ferret-9: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+
+KH8-1: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards. Changed pre-req to KH8-30.
+KH8-2: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+KH8-3: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+KH8-4: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+
+
+6-3-2020:
+
+KH8-6: Formatting. adjusted orbit parameters; changed to sub-orbital due to low PeA. changed stock to match RSS. changed stock rewards.
+KH8-7: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+KH8-8: Formatting. adjusted orbit parameters; changed to sub-orbital due to low PeA. changed stock to match RSS. changed stock rewards.
+KH8-9: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+KH8-10: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+
+KH7-1: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards. Changed pre-req to Corona-60.
+KH7-2: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards. 
+KH7-3: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+KH7-4: Formatting. adjusted orbit parameters; changed to sub-orbital due to low PeA. changed stock to match RSS. changed stock rewards.
+KH7-5: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+KH7-6: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+KH7-7: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+KH7-8: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+KH7-9: Formatting. adjusted orbit parameters; changed to sub-orbital due to low PeA. changed stock to match RSS. changed stock rewards.
+KH7-10: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards. Added parameters for Hitchhiker-2.
+KH7-11: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+KH7-12: Formatting. changed stock to match RSS. changed stock rewards.
+KH7-13: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+KH7-14: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+KH7-15: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+KH7-16: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+KH7-17: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+KH7-18: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+KH7-19: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+KH7-20: Formatting. changed stock to match RSS. changed stock rewards.
+KH7-21: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+KH7-22: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+KH7-23: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+KH7-24: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+KH7-25: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+KH7-26: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+KH7-27: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+KH7-28: Formatting. adjusted orbit parameters; changed to sub-orbital due to low PeA. changed stock to match RSS. changed stock rewards.
+KH7-29: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+KH7-30: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+KH7-31: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+KH7-32: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+KH7-33: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+KH7-34: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+KH7-35: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+KH7-36: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+KH7-37: Formatting. adjusted orbit parameters; changed to sub-orbital due to low PeA. changed stock to match RSS. changed stock rewards.
+KH7-38: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+
+
+7-3-2020:
+
+International Missions
+
+Aeolus: adjusted altitude parameter, changed stock rewards. removed stock cooldown.
+Long-Tom: adjusted altitude parameter, changed stock rewards. changed pre-req to Skylark-1.
+HAT: adjusted altitude parameter, changed stock rewards. removed stock cooldown.
+HAD: adjusted altitude parameter, changed stock rewards. removed stock cooldown.
+
+A-2: adjusted altitude parameter, changed stock rewards. Changed group to Germany_missions.
+A-3: adjusted altitude parameter, changed stock to match RSS. changed stock rewards. Changed group to Germany_missions.
+A-4: adjusted altitude parameter, changed stock to match RSS. changed stock rewards. Changed group to Germany_missions.
+A-5: adjusted altitude parameter, changed stock rewards. Changed group to Germany_missions.
+Wasserfall: adjusted altitude parameter, changed stock rewards. Changed group to Germany_missions.
+
+
+8-3-2020:
+
+San-Marco-1: adjusted orbit parameters. changed stock to match RSS. changed stock rewards. changed pre-req to Ariel-2.
+Skylark-1: changed stock rewards. Changed group to UKmissions.
+Black Knight: changed stock to match RSS. changed stock rewards. Changed pre-req to Skylark-1.
+Blue Water: changed stock to match RSS. changed stock rewards. Changed pre-req to Black Knight.
+Ariel-1: adjusted orbit parameters. changed stock rewards. changed pre-req to Blue Water.
+Ariel-2: adjusted orbit parameters. changed stock rewards. changed pre-req to Ariel-1.
+
+
+9-3-2020:
+
+K-150: changed stock rewards. Changed group to JapanMissions. Changed pre-req to Kappa-4.
+Kappa-1: changed stock rewards. Changed pre-req to Eole.
+Kappa-2: adjusted altitude parameter, changed stock rewards.
+Kappa-3: adjusted altitude parameter, changed stock rewards.
+Kappa-4: adjusted altitude parameter, changed stock rewards.
+Kappa-5: changed stock rewards. removed cooldown from stock.
+Kappa-6: changed stock rewards.
+Kappa-6H: adjusted altitude parameter, changed stock rewards.
+Kappa-7: adjusted altitude parameter, changed stock rewards. Changed pre-req to Kappa-6.
+Kappa-8: changed stock rewards.
+Kappa-8-2: adjusted altitude parameter, changed stock rewards.
+Kappa-8L: adjusted altitude parameter, changed stock rewards. removed cooldown from stock.
+Kappa-9L: adjusted altitude parameter, changed stock rewards. removed cooldown from stock.
+Kappa-9M: adjusted altitude parameter, changed stock rewards. removed cooldown from stock.
+Kappa-10: adjusted altitude parameter, changed stock rewards.
+Kappa-10S: adjusted altitude parameter, changed stock rewards. removed cooldown from stock.
+Lambda-4S-1: changed stock rewards. Changed pre-req to Kappa-10.
+Lambda-4S-2: changed stock rewards.
+Lambda-4S-3: changed stock rewards.
+
+T-7M: adjusted altitude parameter, changed stock rewards. removed cooldown. Changed pre-req to Kappa-7.
+T-7: adjusted altitude parameter, changed stock rewards. removed cooldown from stock.
+Dongfeng-1: changed stock rewards.
+Dongfeng-1A: changed stock rewards.
+Dongfeng-1B: removed; undated copy of 1A mission.
+Dongfeng-2: changed stock rewards. Changed pre-req to Dongfeng-1A; added cooldown to RSS.
+Dongfeng-2A: changed stock rewards. removed cooldown from stock.
+Dongfeng-2B: removed; undated copy of 2A mission.
+Dongfeng-3: changed stock rewards. Changed pre-req to Dongfeng-2A; added cooldown to RSS.
+Dongfeng-3A: changed stock rewards.
+Dongfeng-3B: removed; undated copy of 3A mission.
+Dongfeng-4: changed stock rewards. Changed pre-req to Dongfeng-3A.
+Dongfeng-4A: changed stock rewards.
+Dongfeng-4B: removed; undated copy of 4A mission.
+
+EA-1941: adjusted altitude parameter, changed stock rewards. Changed group to FranceMissions.
+Veronique: changed stock rewards. Changed group to FranceMissions. Changed pre-req to EA-1941.
+Eole: changed stock rewards.
+Belier-1: adjusted altitude parameter, changed stock rewards. Changed pre-req to Eole; added cooldown to RSS.
+Berenice-1: adjusted altitude parameter, changed stock rewards. removed cooldown from stock.
+Berenice-1A&B: removed; undated copies of Berenice-1.
+Asterix: adjusted orbit parameters. changed stock to match RSS. changed stock rewards. changed pre-req to Berenice-1; added cooldown to RSS.
+France-1: adjusted orbit parameters. changed stock to match RSS. changed stock rewards. changed pre-req to Asterix.
+Diapason: adjusted orbit parameters. changed stock to match RSS. changed stock rewards. changed pre-req to France-1.
+Diademe-1: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Diademe-2: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+DIAL-MIKA: added parameters for secondary sat DIAL-WIKA. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Peole-1: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+
+
+10-3-2020:
+
+Soviet Missions
+
+R-1B: changed stock to match RSS. changed stock rewards. removed pre-req. Changed group to new Soviet_Early_Missions.
+R-101: changed stock to match RSS. changed stock rewards. Changed group to new Soviet_Early_Missions.
+R-2E: changed stock to match RSS. changed stock rewards. Changed group to new Soviet_Early_Missions.
+R-5: adjusted altitude parameter, changed stock rewards. Changed pre-req to R-2E. Changed group to new Soviet_Early_Missions.
+R-11: adjusted altitude parameter, changed stock rewards. Changed group to new Soviet_Early_Missions.
+R-7: changed stock to match RSS. changed stock rewards. Changed pre-req to R-11. Changed group to new Soviet_Early_Missions.
+R-12: changed stock to match RSS. changed stock rewards. Changed group to new Soviet_Early_Missions.
+M-100: changed stock to match RSS. changed stock rewards. Changed group to new Soviet_Early_Missions.
+
+R-7A: adjusted altitude parameter, changed stock rewards. Changed pre-req to R-12.
+R-17: changed stock rewards. Changed pre-req to R-12.
+R-14: adjusted altitude parameter, changed stock rewards. Changed pre-req to R-7A.
+R-16: adjusted altitude parameter, changed stock rewards. Changed pre-req to R-14.
+R-9A: adjusted altitude parameter, changed stock rewards. Changed pre-req to R-16.
+R-36: adjusted altitude parameter, changed stock rewards.
+UR-100: adjusted altitude parameter, changed stock rewards. Changed pre-req to Zond-2.
+
+Sputnik-1: adjusted orbit parameters. changed stock to match RSS. rebalanced rewards. Changed pre-req to R-7.
+Sputnik-2: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Sputnik-3: adjusted orbit parameters. changed stock to match RSS. changed stock rewards. Changed pre-req to Sputnik-2.
+
+Luna-E1: changed stock rewards. Renamed to Luna-E1-1.
+Luna-E1A-No1: removed, double with Luna-E1-1.
+Luna-E1-No2: changed stock rewards. Renamed to Luna-E1-2.
+Luna-E1-No3: changed stock rewards. Renamed to Luna-E1-3.
+Luna-1: changed stock to match RSS. changed stock rewards. Changed pre-req to Luna-E1-3.
+Luna-2: changed stock to match RSS. changed stock rewards. Changed pre-req to Luna-1.
+Luna-3: Added science transmit parameter. changed stock to match RSS. changed stock rewards.
+Luna-E3-No1: changed stock rewards. Renamed to Luna-E3-1.
+Luna-E3-No2: changed stock rewards. Renamed to Luna-E3-2. Changed parameter to flying; added/changed launch info.
+Luna-E6-No2: adjusted orbit parameters. changed stock rewards. Renamed to Luna-E6-2. Changed pre-req to Vostok-4.
+Luna-E6-No3: changed stock rewards. Renamed to Luna-E6-3. Changed pre-req to Luna-E6-2.
+Luna-4: changed stock to match RSS. changed stock rewards. Changed pre-req to Luna-E6-3.
+Luna-5: changed stock to match RSS. changed stock rewards. Changed pre-req to Luna-4; added cooldown to RSS.
+Luna-6: adjusted orbit parameters. changed stock rewards. Reduced stock Mun distance to stay within Mun SOI.
+Luna-7: changed stock to match RSS. changed stock rewards.
+Luna-8: changed stock to match RSS. changed stock rewards.
+Luna-9: Added science transmit parameter. changed stock to match RSS. changed stock rewards.
+Luna-10: Added science transmit parameter. adjusted orbit parameters; max Ap & Pe instead of min. changed stock rewards.
+Luna-11: Added science transmit parameter. adjusted orbit parameters; max Ap & Pe instead of min. changed stock rewards.
+Luna-12: Added science transmit parameter. adjusted orbit parameters; max Ap & Pe instead of min. changed stock rewards.
+Luna-13: Formatting. Added science transmit parameter. changed stock rewards.
+
+
+11-3-2020:
+
+Elektron-1: added transmit science parameters to both Elektrons. adjusted orbit parameters. changed stock rewards. Changed pre-req to Luna-4. Changed group to new ElektronMissions.
+Elektron-3: added transmit science parameters to both Elektrons. adjusted orbit parameters. changed stock rewards. Changed group to new ElektronMissions.
+
+Mars-1M-1: changed stock rewards.
+Mars-1M-2: changed stock rewards.
+Mars-2MV-3-1: removed, double with Venera-2MV-2SA
+Mars-1: adjusted encounter parameters. changed stock to match RSS. changed stock rewards. Changed pre-req to Venera-2MV-2SA.
+
+Venera-1VA-1: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Venera-1: adjusted encounter parameters. changed stock to match RSS. changed stock rewards. Changed pre-req to Venera-1VA-1.
+Venera-2MV-1: adjusted orbit parameters. changed stock to match RSS. changed stock rewards. Changed pre-req to Venera-1.
+Venera-2MV-2SA: adjusted orbit parameters. changed stock to match RSS. changed stock rewards. Changed pre-req to Venera-2MV-1.
+Venera-2: adjusted encounter parameters. changed stock to match RSS. changed stock rewards. Changed pre-req to Luna-7.
+Venera-3: description editing. changed stock to match RSS. changed stock rewards. Changed pre-req to Venera-2.
+
+
+13-3-2020:
+
+Molniya-1A: changed name to Molniya-1-01. adjusted orbit parameters. changed stock to match RSS. changed stock rewards. Changed pre-req to Zond-2. Changed group to new MolniyaMissions.
+Molniya-1B: changed name to Molniya-1-02. adjusted orbit parameters. changed stock to match RSS. changed stock rewards. Changed group to new MolniyaMissions.
+Molniya-1C: changed name to Molniya-1-03. adjusted orbit parameters. changed stock to match RSS. changed stock rewards. Changed group to new MolniyaMissions.
+Molniya-1D: changed name to Molniya-1-04. adjusted orbit parameters. changed stock to match RSS. changed stock rewards. Changed group to new MolniyaMissions.
+
+Polyot-1: adjusted orbit parameters. changed stock to match RSS. changed stock rewards. Changed group to new PolyotMissions.
+Polyot-2: adjusted orbit parameters. changed stock to match RSS. changed stock rewards. Changed pre-req to Polyot-1. Changed group to new PolyotMissions.
+
+Proton-1: Added transmit science parameter. adjusted orbit parameters. changed stock to match RSS. changed stock rewards. Changed pre-req to Molniya-1-01. Changed group to new ProtonMissions.
+Proton-2: Added transmit science parameter. adjusted orbit parameters. changed stock to match RSS. changed stock rewards. Changed group to new ProtonMissions.
+Proton-3: Added transmit science parameter. adjusted orbit parameters. changed stock to match RSS. changed stock rewards. Changed group to new ProtonMissions.
+
+Zond-2: adjusted encounter parameters. changed stock to match RSS. changed stock rewards. Changed pre-req to Elektron-3.
+Zond-3: Added transmit science parameter. changed stock to match RSS. changed stock rewards. Changed pre-req to Zond-2.
+
+Korabl-Sputnik-1: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Korabl-Sputnik-A1: changed stock to match RSS. changed stock rewards.
+Korabl-Sputnik-2: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Korabl-Sputnik-3: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Korabl-Sputnik-4: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Vostok-1: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Vostok-2: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Vostok-3: Added recover science parameter. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Vostok-4: Added recover science parameter. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Vostok-5: Added recover science parameter. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Vostok-6: Added recover science parameter. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+
+Voskhod-3KV-No.1: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Voskhod-1: Added recover science parameter. adjusted orbit parameters. changed stock to match RSS. changed stock rewards. Changed pre-req to Voskhod-3KV-1.
+Voskhod-2: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+
+Kosmos-DS-1-1: changed stock to match RSS. changed stock rewards.
+Kosmos-DS-1-2: changed stock to match RSS. changed stock rewards.
+Kosmos-DS-A1-3: changed stock to match RSS. changed stock rewards.
+Kosmos-DS-A1-4: changed stock to match RSS. changed stock rewards.
+Kosmos-DS-MT-1: changed stock to match RSS. changed stock rewards.
+Kosmos-Zenit-2-1: changed stock to match RSS. changed stock rewards.
+Kosmos-Zenit-2-3: changed stock to match RSS. changed stock rewards.
+Kosmos-Zenit-2-12: changed stock to match RSS. changed stock rewards.
+Kosmos-Zenit-2-14: changed stock to match RSS. changed stock rewards.
+
+Kosmos-1: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-2: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-3: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-4: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-5: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-6: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-7: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-8: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-9: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-10: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-11: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-12: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-13: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-14: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-15: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-16: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-17: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-18: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-19: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-20: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-21: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-22: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-23: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-24: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-25: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-26: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-27: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-28: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-29: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-30: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-31: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-32: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-33: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-34: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-35: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-36: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-37: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-38-40: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+
+
+14-3-2020:
+
+Kosmos-41: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-42-43: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-44: adjusted orbit parameters. changed stock to match RSS. changed stock rewards. removed cooldown from stock.
+Kosmos-45: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-46: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-48: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-49: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-50: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-51: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-52: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-53: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-54-56: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-58: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-59: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-61-63: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-64: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-65: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-66: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-67: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-68: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-69: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-70: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-71-75: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-76: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-77: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-78: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-79: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-80-84: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-81: removed, already included in Kosmos-80-84.
+Kosmos-85: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-86-90: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-91: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-92: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-93: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-94: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-95: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-97: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-98: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-99: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-100: adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-101: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-102: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-103: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-104: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-105: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-106: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-107: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-108: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-109: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-110: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+
+
+15-3-2020:
+
+Kosmos-112: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-113: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-114: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-115: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-116: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-117: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-118: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-119: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-120: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-121: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-122: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-123: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-124: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-125: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-126: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-127: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-128: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-129: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-130: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-131: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-132: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-134: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-135: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-136: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+Kosmos-137: Formatting. adjusted orbit parameters. changed stock to match RSS. changed stock rewards.
+
+Expanded installation instructions: optional removal of certain contract sets explained.
+Expanded readme.md: crediting added.
+Removed R-7 req for stock to allow players to skip early missile testing.
+Fixed Logo references for agents in main cfg file.
+Various bugfixes for RSS version.
+Added :NEEDS[RP-0] to all RSS contracts with DownrangeDistance parameter (doesn't apply to stock). This prevents those contracts failing to load when RP-0/RP-1 isn't installed.
