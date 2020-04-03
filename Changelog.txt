@@ -1,3 +1,9 @@
+**Version 0.8.1
+- Removed deadlines from interplanetary missions
+- Changed Mariner 3 & 4 to use Coatl Mariner mk2 bus instead of BDB MarinerB bus.
+- Added additional science, relay and solar parameters to International and Soviet missions where applicable.
+- Added Tantares parameters to Soviet missions for Vostok & Meteor (within Kosmos) missions.
+
 **Version 0.8.0 - Morphisor takeover version
 - Complete quality pass for all contracts, doing fact corrections, formatting, bugfixing and equalizing the parameter standards for all versions.
 - Complete stock version overhaul: all contracts can now be used in any planet pack, and both the rewards and the orbits/altitudes scale with world size, allowing maximum compatibility.

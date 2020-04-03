@@ -1,3 +1,7 @@
+This logs details all the editing done by Morphisor to the existing contracts and the nature of the changes applied.
+Not for the easily bored! ;-)
+
+
 17-2-2020:
 
 Removed stock US mission dependencies on other nations missions, replacing them with logical US precursors.
