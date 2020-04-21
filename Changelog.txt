@@ -2,6 +2,10 @@
 - Added Surveyor missions 3-7.
 - Added additional Coatl Aerospace parameters for Mariner 3-4 and all Surveyor missions.
 - Added all manned Apollo missions, including Apollo I as a memorial mission.
+- Added all Skylab missions.
+- Added all Salyut launch missions, 1-7.
+- Added Soyuz missions up until Soyuz 12.
+- Adjusted BDB parameters to differentiate between BDB 1.7 and earlier versions.
 
 **Version 0.8.1
 - Removed deadlines from interplanetary missions
