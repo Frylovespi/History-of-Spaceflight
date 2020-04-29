@@ -4,11 +4,13 @@
 - Added all manned Apollo missions, including Apollo I as a memorial mission.
 - Added all Skylab missions.
 - Added all Salyut launch missions, 1-7.
-- Added Soyuz missions up until Soyuz 12.
+- Added Soyuz missions up until Soyuz 20.
+- Added Lunar Orbiter missions 3-5.
 - Adjusted BDB parameters to differentiate between BDB 1.7 and earlier versions.
+- Additional MM patches to support combined installs of BDB and SCANsat & DMOS.
 
 **Version 0.8.1
-- Removed deadlines from interplanetary missions
+- Removed deadlines from interplanetary missions.
 - Changed Mariner 3 & 4 to use Coatl Mariner mk2 bus instead of BDB MarinerB bus.
 - Added additional science, relay and solar parameters to International and Soviet missions where applicable.
 - Added Tantares parameters to Soviet missions for Vostok & Meteor (within Kosmos) missions.
@@ -21,7 +23,7 @@
 - Added "Pocket Edition" version: a light version of the Stock version that does away with almost all the failure missions and repetitiveness.
 - US extra quality update: many extra parameters to nearly all missions included in the Pocket Edition, including a lot of stuff specifically for users of the highly recommended Bluedog Design Bureau. These additions have also been carried over to those same missions in the Stock edition.
 
-**Version 0.7.0 (In progress available on github)
+**Version 0.7.0
 - Started adding new contract from 1967 onwards
 - More balancing and bug fixes
 - Re-added line breaks in all 800+ contract descriptons for readablility. The bug preventing proper display in Contract Configurator was fixed in 4.0.3 (this will take some time)
