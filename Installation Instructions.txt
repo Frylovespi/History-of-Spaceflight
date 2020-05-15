@@ -19,3 +19,9 @@ You can then either reinstate the removed contracts, or remove the dependency fr
 SKIPPING AHEAD: Another way to avoid contracts or skip ahead to contracts you want to do is by using the CC debug menu. When in the main KSC view, press alt-F10 (by default).
 Navigate to the History of Spaceflight contracts and find the contract you want to do. It will have a CompleteContract requirement with a button next to it. 
 Simply press this button to disable the requirement, allowing the game to load the contract to be directly available. You may need to fastforward a bit for it to load.
+
+
+Kerbalism Users: Many contracts in this pack have scientific objectives. Kerbalism changes some of the science definitions involved or the way the experiments are run.
+The result is that many of these contracts either don't load at all or are impossible to complete. 
+If you still want to use this pack with Kerbalism, you can manually remove the affected science objectives OR disable them through the CC debug menu. 
+Remember to do so before taking the contract or it will fail.
