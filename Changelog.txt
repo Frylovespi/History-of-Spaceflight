@@ -4,10 +4,11 @@
 - Added all manned Apollo missions, including Apollo I as a memorial mission.
 - Added all Skylab missions.
 - Added all Salyut launch missions, 1-7.
-- Added Soyuz missions up until Soyuz 20.
+- Added Soyuz missions up until Soyuz 40 and Soyuz T missions 1-14.
 - Added Lunar Orbiter missions 3-5.
 - Adjusted BDB parameters to differentiate between BDB 1.7 and earlier versions.
 - Additional MM patches to support combined installs of BDB and SCANsat & DMOS.
+- Various small fixes and balancing.
 
 **Version 0.8.1
 - Removed deadlines from interplanetary missions.
