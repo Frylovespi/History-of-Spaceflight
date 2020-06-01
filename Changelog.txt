@@ -1,3 +1,9 @@
+**Version 0.9.1
+- Reduced Pocket Edition cooldown timers between sequenced missions.
+- Fixed some science recovery objectives not completing.
+- Fixed docking/rendezvous parameters not completing; adjusted sequencing to workaround CC behaviour in this regard.
+- Other minor typo's etc.
+
 **Version 0.9.0
 - Added Surveyor missions 3-7.
 - Added additional Coatl Aerospace parameters for Mariner 3-4 and all Surveyor missions.
