@@ -1,3 +1,8 @@
+**Version 0.9.2
+- Various requirement/objective optimizations
+- Numerous text and fact corrections
+- Added support for BDB new Gemini, BDB Hitchhiker sat and Tantares SP Venera 1
+
 **Version 0.9.1
 - Reduced Pocket Edition cooldown timers between sequenced missions.
 - Fixed some science recovery objectives not completing.
