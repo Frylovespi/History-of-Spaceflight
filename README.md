@@ -13,11 +13,13 @@ Credits to:
 
 Frylovespi - The creator and original author of this mod
 
+Wolffy-AU - Additional early missions and incredible gameplay improvements for existing early missions
+
 GordonDry - Editing
 
-Pap1723 - for the stock credit reward structure
+Pap1723 - For the stock credit reward structure
 
-Whitecat106 - for the Historic Missions contract pack, which this pack is inspired by and builds upon
+Whitecat106 - For the Historic Missions contract pack, which this pack is inspired by and builds upon
 
 
 // ***** Sources used to create this mod 
