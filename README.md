@@ -5,7 +5,9 @@ Now under Morphisor management
 
 For Stock(-alike)/RSS/RP-0
 
-Forum Thread: https://forum.kerbalspaceprogram.com/index.php?/topic/173683-131142v05b-history-of-spaceflight-contract-pack-for-stockrssrp-0/
+Forum Thread: https://forum.kerbalspaceprogram.com/index.php?/topic/192880-12-110x-contract-pack-history-of-spaceflight-v092/
+
+Original (old) forum Thread: https://forum.kerbalspaceprogram.com/index.php?/topic/173683-131142v05b-history-of-spaceflight-contract-pack-for-stockrssrp-0/
 
 
 
