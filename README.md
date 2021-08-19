@@ -19,6 +19,8 @@ Wolffy-AU - Additional early missions and incredible gameplay improvements for e
 
 GordonDry - Editing
 
+Severedsolo - General advice and cleverness
+
 Pap1723 - For the stock credit reward structure
 
 Whitecat106 - For the Historic Missions contract pack, which this pack is inspired by and builds upon
