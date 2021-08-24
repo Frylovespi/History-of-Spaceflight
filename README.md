@@ -25,6 +25,8 @@ Pap1723 - For the stock credit reward structure
 
 Whitecat106 - For the Historic Missions contract pack, which this pack is inspired by and builds upon
 
+Nightingale - For creating Contract Configurator
+
 
 // ***** Sources used to create this mod 
 
