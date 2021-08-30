@@ -2,6 +2,7 @@
 - Many improvements and additions to (Soviet) early missions, making them vastly more interesting - all credits for this go to Wolffy-AU!
 - Added Nimbus missions.
 - Added Mariner missions 5-10.
+- Added Pioneer missions 7-13.
 - Confirmed functionality on KSP 1.12.x.
 - Some small fixes and balancing, editing.
 
