@@ -4,6 +4,7 @@
 - Added Mariner missions 5-10.
 - Added Pioneer missions 7-13.
 - Confirmed functionality on KSP 1.12.x.
+- Updated part requirements for Tantares Vostok/Almaz and BDB Apollo updates.
 - Some small fixes and balancing, editing.
 
 **Version 0.9.2
