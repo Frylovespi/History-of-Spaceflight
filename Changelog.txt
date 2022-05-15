@@ -3,8 +3,9 @@
 - Added Nimbus missions.
 - Added Mariner missions 5-10.
 - Added Pioneer missions 7-13.
+- Added Venera missions 4-16.
 - Confirmed functionality on KSP 1.12.x.
-- Updated part requirements for Tantares Vostok/Almaz and BDB Apollo updates.
+- Updated part requirements and science parameters for Tantares and BDB updates since last release.
 - Some small fixes and balancing, editing.
 
 **Version 0.9.2
