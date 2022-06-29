@@ -1,6 +1,6 @@
 # History-of-Spaceflight
 
-Now under Morphisor management
+Under Morphisor management
 
 
 For Stock(-alike)/RSS/RP-0
@@ -15,7 +15,7 @@ Credits to:
 
 Frylovespi - The creator and original author of this mod
 
-Wolffy-AU - Additional early missions and incredible gameplay improvements for existing early missions
+Wolffy-AU - Additional early missions and gameplay improvements for existing early missions
 
 GordonDry - Editing
 
