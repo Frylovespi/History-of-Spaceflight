@@ -6,6 +6,7 @@
 - Added Venera missions 4-16.
 - Added Viking missions.
 - Added Mars missions 2-7.
+- Added Helios missions.
 - Confirmed functionality on KSP 1.12.x.
 - Updated part requirements and science parameters for Tantares and BDB updates since last release.
 - Some small fixes and balancing, editing.
